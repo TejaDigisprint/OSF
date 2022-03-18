@@ -1,0 +1,49 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot-custom",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "custom-product-breadcrumbs",
+        "custom-product-details-container",
+        "product-recommendations-carousel",
+        "back-to-top-custom"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "Footer-custom"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Product"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "product",
+  "title": "Custom Product",
+  "shortName": "product",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "product"
+    }
+  }
+}

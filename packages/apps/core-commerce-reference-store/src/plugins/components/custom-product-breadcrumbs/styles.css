@@ -1,0 +1,26 @@
+.ProductBreadcrumbs {
+
+  padding: 0.5rem var(--cc-container-padding);
+  font-size: var(--cc-font-size-small);
+  padding-top: 20px !important;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+.ProductBreadcrumbs__BreadcrumbLabel {
+  color: var(--cc-color);
+  text-decoration: none
+}
+
+.ProductBreadcrumbs__BreadcrumbLink,
+.ProductBreadcrumbs__BreadcrumbLink:active,
+.ProductBreadcrumbs__BreadcrumbLink:hover {
+  color: var(--cc-color);
+  text-decoration: underline;
+}
+
+.ProductBreadcrumbs__CorrectedLabel {
+  text-decoration: line-through;
+  color: var(--cc-validation-error-color);
+}

@@ -1,0 +1,39 @@
+{
+  "regions": [
+    {
+      "components": [
+        "custom-profile-details-summary"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        "custom-profile-address-book-summary"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        "custom-profile-email-marketing-preferences-summary"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        "Custom-profile-Saved-Cards-Summery"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        
+      ],
+      "width": 8,
+      "type": "main"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+/**
+ * Main component content
+ */
+ .CategoryListingCarousel{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media only screen and (min-width:769px){
+  .CategoryListingCarousel{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+ .CollectionCarousel_Content {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  margin-top: 1em;  
+}
+
+.CollectionCarousel_Content .GenericCarouselSlider__IndicatorSection
+{
+  top: 100%;
+}
+
+.CollectionCarousel__Heading {
+  font-family: Human BBY DigitalArial,sans-serif !important;
+  position: relative;
+  color: black;
+  margin: 25px !important;
+  /* margin-top: 1.5em; */
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 20px;
+  }
+.CollectionCarousel__Heading::after{
+  
+    position: absolute;
+    height: 2px;
+    margin: 0 auto;
+    content: '';
+    left: 0;
+    right: 0;
+    width: 12%;
+    color: #000;
+    background-color: #0046be;
+    left: 0;
+    bottom: -3px; /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+
+}
+
+
+.CategoryListingCarousel .GenericCarouselSlider__BackButton{
+ left:0px;
+}
+
+.CategoryListingCarousel .GenericCarouselSlider__ForwardButton{
+right:0px;
+}
+
+.CategoryListingCarousel .GenericCarouselSlider__Button button, .CategoryListingCarousel .GenericCarouselSlider__Button button:active, .CategoryListingCarousel .GenericCarouselSlider__Button button:hover {
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: absolute;
+  top: calc(50% - 20px);
+  width: 47px;
+  height: 40px;
+  background-image: linear-gradient(to bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  text-decoration: none;
+  /* box-shadow: inset 0 0 0 0.05em #ddd; */
+  box-shadow: var(--cc-secondary-button-box-shadow);
+  background-color: none;
+  opacity: 100%;
+  border-radius: 0;
+}
+
+.ProductItem{
+  display:block;
+  width: 100%;
+  height: 100%;
+  position:relative;
+  border: 1px solid #CDD2D6;
+  text-align: center !important;
+  padding: 10px 0 !important;
+}
+
+.ProductItem .ProductItem__Image{
+  width: 100%;
+  height:auto;
+  margin:auto;
+  margin-bottom: 2em;
+  display: block;
+}
+
+.ProductItem .ProductItem__Image img{
+  width: 100%;
+  height:220px !important;
+}
+
+.ProductItem__DisplayName {
+  margin-top: .5rem;
+  font-size: var(--cc-font-size-large);
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: initial;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.5rem;
+}
+
+.ProductItem .ProductItem__Price .ProductPrice{
+  text-align: center;
+}
+.ProductItem .ProductItem__Price .ProductPrice div{
+  align-items: center;
+  font-size: var(--cc-font-size-large);
+  font-weight: 500;
+  white-space: initial;
+  width: 100%;
+  color: var(--cc-color)
+}
+
+.ProductItem .CollectionCarousel__Heading{
+  font-size: var(--cc-font-size-large);
+}
+
+.ProductItem .productItem-listPrice{
+  color: red;
+    text-decoration: line-through;
+}
+
+.ProductItem .productItem-salePrice{
+  color: black;
+  margin-right: 15px;
+}
+
+

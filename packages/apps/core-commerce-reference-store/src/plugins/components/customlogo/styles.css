@@ -1,0 +1,25 @@
+.customlogo { 
+  width: 90%;
+  height: 70px;
+  object-fit: contain;
+}
+
+
+.customlogo__Image {
+  width: 46%;
+  height: 80px;
+  margin: 0px 50px;
+  }
+.customlogo__ExtraInfo {
+  background-color: red;
+  color: yellow;
+  margin-left: 5px;
+}
+/**
+ *  CSS uses the Block Element Modifier naming convention, an example :
+.customlogo__ElementName {
+  display: inline-block;
+  font-size: large;
+}
+ * For more information - http://getbem.com/
+ */

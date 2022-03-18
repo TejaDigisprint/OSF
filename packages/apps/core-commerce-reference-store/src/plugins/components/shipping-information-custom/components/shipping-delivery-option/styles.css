@@ -1,0 +1,10 @@
+.ShippingDeliveryOption__ShippingOptionLabel {
+  font-weight: normal;
+}
+.ShippingDeliveryOption__ShippingOption {
+  display: flex;
+  flex-direction: row;
+}
+.ShippingDeliveryOption__ShippingOptionDescription {
+  margin-left: 0.5rem;
+}

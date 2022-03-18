@@ -1,0 +1,90 @@
+.Notification__IconWrapper {
+  display: flex;
+}
+
+.Notification__IconWrapper .Icon {
+  margin-top: 0.5rem;
+}
+
+.Notification__Messages {
+  padding-left: 1rem;
+  margin: auto;
+  margin-left: 0;
+}
+
+.Notification__Message {
+  display: block;
+  margin: 0.25rem;
+}
+
+.Notification {
+  display: flex;
+  padding: .5rem 1rem .5rem 1rem;
+}
+
+.Notification__error {
+  border-top: 1px solid var(--cc-error-message-border-color);
+  border-bottom: 1px solid var(--cc-error-message-border-color);
+  background-color: var(--cc-error-message-background-color);
+  color: var(--cc-error-message-color);
+}
+
+.Notification__ErrorIcon, .Notification__CloseButton--error {
+  color: var(--cc-error-message-icon-color);
+}
+
+.Notification__info {
+  border-top: 1px solid var(--cc-info-message-border-color);
+  border-bottom: 1px solid var(--cc-info-message-border-color);
+  background-color: var(--cc-info-message-background-color);
+  color: var(--cc-info-message-color);
+}
+
+.Notification__InfoIcon, .Notification__CloseButton--info {
+  color: var(--cc-info-message-icon-color);
+}
+
+.Notification__warn {
+  border-top: 1px solid var(--cc-warning-message-border-color);
+  border-bottom: 1px solid var(--cc-warning-message-border-color);
+  background-color: var(--cc-warning-message-background-color);
+  color: var(--cc-warning-message-color);
+}
+
+.Notification__WarnIcon, .Notification__CloseButton--warn {
+  color: var(--cc-warning-message-icon-color);
+}
+
+.Notification__success {
+  border-top: 1px solid var(--cc-success-message-border-color);
+  border-bottom: 1px solid var(--cc-success-message-border-color);
+  background-color: var(--cc-success-message-background-color);
+  color: var(--cc-success-message-color);
+}
+
+.Notification__SuccessIcon, .Notification__CloseButton--success {
+  color: var(--cc-success-message-icon-color);
+}
+
+.Notification__CloseButton {
+  margin-top: 1.5rem;
+  transform: rotate(180deg);
+  width: 1rem;
+  height: 1rem;
+  background-color: inherit;
+  border: none;
+}
+
+.Notification button:not(:disabled):hover, .Notification button:not(:disabled):active {
+  background-color: inherit;
+}
+
+.Notification__CloseButton:focus {
+  background-color: inherit;
+  box-shadow: none;
+}
+
+.Notification__CloseIcon {
+  height: 1.2rem;
+  vertical-align: text-bottom;
+}

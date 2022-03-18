@@ -1,0 +1,33 @@
+.CheckoutReviewOrderContainer{
+  padding: 0 var(--cc-container-padding);
+  /* width: 100%; */
+  margin-bottom: 1.5rem;
+  background: #f0f2f4 !important;
+}
+.CheckoutReviewOrderContainer__Heading {
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+.CheckoutReviewOrderContainer__Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+.CheckoutReviewOrderContainer__Section{
+  flex-wrap: wrap;
+}
+.CheckoutReviewOrderContainer__Section > section{
+  width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+}
+
+@media only screen and (min-width: 768px) {
+  .CheckoutReviewOrderContainer .ShippingInformation,
+  .CheckoutReviewOrderContainer .PaymentInformation {
+    margin-right: var(--cc-container-padding);
+  }
+}

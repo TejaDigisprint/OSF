@@ -1,0 +1,48 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot-custom",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "checkout-progress-tracker",
+        "checkout-shipping-container-custom",
+        "back-to-top-custom"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "Footer-custom"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Checkout Shipping"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "checkout-shipping",
+  "title": "Custom Checkout Shipping",
+  "shortName": "checkout-shipping",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "checkout-shipping"
+    }
+  }
+}

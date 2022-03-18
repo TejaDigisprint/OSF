@@ -1,0 +1,36 @@
+.CartOrderSummary {
+  margin-top: 0.5rem;
+  /* padding: 0 var(--cc-container-padding); */
+  background: white;
+ 
+  padding: 15px;
+  border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding: 12px;
+}
+
+.CartOrderSummary__Heading{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+.OrderSummary__Label{
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+  .CartOrderSummary__Heading {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .CartOrderSummary {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+    margin: 0 var(--cc-container-padding);
+    padding: 1rem 0.75rem 0.75rem 0.75rem;
+    margin-top: 16px !important;
+  }
+}

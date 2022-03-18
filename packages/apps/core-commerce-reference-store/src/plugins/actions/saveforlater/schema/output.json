@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "https://example.com/app-name/schemas/actions/get-currency/output.json",
+  "title": "Use a descriptive title here such as Get Currency.",
+  "description": "Add description here such as Gets details for a currency definition.",
+  "type": "object",
+  "properties": {
+    "myRepository": {
+      "type": "object",
+      "description": "Add description here such as Application repository.",
+      "properties": {
+        "myTable": {
+          "type": "object",
+          "description": "Add description here such as Information about currency definitions.",
+          "properties": {
+            "myProperty": {
+              "type": "string",
+              "description": "Add description here such as The id of the currently selected currency."
+            }
+          }
+        }
+      }
+    }
+  },
+  "example": {
+    "myRepository": {
+      "myTable": {
+        "myProperty": "currency10001"
+      }
+    }
+  }
+}

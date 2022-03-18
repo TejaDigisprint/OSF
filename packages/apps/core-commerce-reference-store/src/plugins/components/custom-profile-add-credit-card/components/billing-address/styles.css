@@ -1,0 +1,9 @@
+.BillingAddress {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.BillingAddress .AddressInformation__Buttons button, .BillingAddress .AddressInformation__Buttons button:hover {
+  background-color: inherit;
+}

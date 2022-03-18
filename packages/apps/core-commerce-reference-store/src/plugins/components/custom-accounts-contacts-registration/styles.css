@@ -1,0 +1,198 @@
+.AccountAndContactRegistration {
+  padding: 0 var(--cc-container-padding);
+  display: flex;
+  flex-direction: column;
+  font-size: var(--cc-font-size);
+}
+
+.AccountAndContactRegistration_div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 40px 0px;
+  background-color:white;
+  border-radius: 4px;
+}
+
+.AccountAndContactRegistration input,
+.AccountAndContactRegistration button {
+  width: 100%;
+}
+
+.AccountAndContactRegistration_BoldText {
+  font-weight: 500;
+}
+.AccountAndContactRegistration_paragraph {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+
+.AccountAndContactRegistration_Checked_label {
+  font-weight: 500;
+  padding-bottom: 0.25rem;
+}
+.AccountAndContactRegistration__ZipAndState {
+  display: flex;
+}
+
+.AddressInput__ZipCodeFlexItem {
+  width: 35%;
+  margin-right: 0.5em;
+}
+.AddressInput__StateFlexItem {
+  width: 65%;
+  margin-top: 1em;
+}
+
+.AccountAndContactRegistration_EmailField {
+  position: relative;
+}
+
+.AccountAndContactRegistration_EmailField .Icon {
+  height: 1rem;
+}
+.AccountAndContactRegistration_EmailIcon {
+  position: absolute;
+  right: 0.6rem;
+  top: 2.7rem;
+}
+.AccountAndContactRegistration textarea {
+  width: 100%;
+  height: 125px;
+}
+
+.AccountAndContactRegistration hr {
+  width: 98.7%;
+  border: none;
+  border: 1px solid var(--cc-background-color);
+  border-top: 1px solid var(--cc-border-color);
+}
+.AccountAndContactRegistration_SelectionChoice {
+  margin-bottom: 0.7rem;
+  margin-top: 0.2em;
+}
+
+@media only screen and (min-width: 768px) {
+  .AccountAndContactRegistration {
+    width: 100%;
+  }
+  .AccountAndContactRegistration__Row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .AccountAndContactRegistration__Row p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .AccountAndContactRegistration__Col {
+    width: 50%;
+    margin-right: 0.7rem;
+  }
+  .AccountAndContactRegistration__SingleColumn {
+    width: 49%;
+    margin-right: 0.5rem;
+  }
+  .AccountAndContactRegistration textarea {
+    width: 99.2%;
+    height: 125px;
+  }
+  .AddressInput__StateFlexItem {
+    width: 65%;
+    margin-top: 0;
+  }
+  hr {
+    margin-left: 0;
+    width: 43.7em;
+  }
+
+  .AccountAndContactRegistration__Col.Dropdown {
+    width: 50%;
+  }
+}
+
+.AccountAndContactRegistration > form > div {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.AccountAndContactRegistration button {
+  margin-bottom: 1em;
+}
+
+.AccountAndContactRegistration__LinkToLogin {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+  color: var(--cc-secondary-button-color);
+  background: var(--cc-secondary-button-background-color);
+  background-image: -webkit-linear-gradient(
+    bottom,
+    var(--cc-secondary-button-background-color),
+    var(--cc-secondary-button-background-gradient-color)
+  );
+  background-image: -moz-linear-gradient(
+    bottom,
+    var(--cc-secondary-button-background-color),
+    var(--cc-secondary-button-background-gradient-color)
+  );
+  background-image: -ms-linear-gradient(
+    bottom,
+    var(--cc-secondary-button-background-color),
+    var(--cc-secondary-button-background-gradient-color)
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    var(--cc-secondary-button-background-color),
+    var(--cc-secondary-button-background-gradient-color)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    var(--cc-secondary-button-background-color),
+    var(--cc-secondary-button-background-gradient-color)
+  );
+  box-shadow: var(--cc-secondary-button-box-shadow);
+  border: 1px solid transparent;
+  border-radius: var(--cc-border-radius);
+  padding: 0.5em 1em;
+  text-transform: unset;
+  font-weight: 600;
+}
+
+.AccountAndContactRegistration__LinkToLogin:hover,
+.AccountAndContactRegistration__LinkToLogin:focus {
+  color: var(--cc-secondary-button-color);
+  background: var(--cc-secondary-button-background-color);
+  background-image: -webkit-linear-gradient(
+    bottom,
+    var(--cc-secondary-button-background-color),
+    var(--cc-secondary-button-background-gradient-hover-color)
+  );
+  background-image: -moz-linear-gradient(
+    bottom,
+    var(--cc-secondary-button-background-color),
+    var(--cc-secondary-button-background-gradient-hover-color)
+  );
+  background-image: -ms-linear-gradient(
+    bottom,
+    var(--cc-secondary-button-background-color),
+    var(--cc-secondary-button-background-gradient-hover-color)
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    var(--cc-secondary-button-background-color),
+    var(--cc-secondary-button-background-gradient-hover-color)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    var(--cc-secondary-button-background-color),
+    var(--cc-secondary-button-background-gradient-hover-color)
+  );
+  text-decoration: none;
+  box-shadow: var(--cc-secondary-button-box-shadow);
+}
+
+.AccountAndContactRegistration--hidden {
+  display: none;
+}

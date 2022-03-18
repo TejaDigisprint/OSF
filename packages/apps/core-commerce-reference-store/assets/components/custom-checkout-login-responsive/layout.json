@@ -1,0 +1,11 @@
+{
+  "regions": [
+    {
+      "components": [
+        "custom-checkout-login"
+      ],
+      "width": 4,
+      "type": "main"
+    }
+  ]
+}

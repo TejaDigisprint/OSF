@@ -1,0 +1,48 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "home-breadcrumb",
+        "account-type-selector-responsive",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Create an Account"
+      }
+    }
+  },
+  "defaultPage": false,
+  "address": "registration",
+  "title": "Registration",
+  "shortName": "registration",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "registration"
+    }
+  }
+}

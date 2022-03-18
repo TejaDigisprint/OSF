@@ -1,0 +1,29 @@
+.CreditCardPaymentDetails {
+  display: flex;
+}
+.CreditCardPaymentDetails__CardIconDetails {
+  display: flex;
+  margin: 0.2rem 1rem auto 0;
+  max-width: 7em;
+}
+.CreditCardPaymentDetails__CardIcon {
+  border: 0.8px solid var(--cc-border-color);
+  width: 3.5em;
+  border-radius: var(--cc-border-radius);
+}
+.CreditCardPaymentDetails__CardDetails{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.CreditCardPaymentDetails__BillingAddressText {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+.CreditCardPaymentDetails__CardText .CreditCardPaymentDetails__BillingAddress{
+  margin-bottom: 0.2rem;
+} 
+.CreditCardPaymentDetails__BillingAddressDetails {
+  display: flex;
+  flex-direction: column;
+}

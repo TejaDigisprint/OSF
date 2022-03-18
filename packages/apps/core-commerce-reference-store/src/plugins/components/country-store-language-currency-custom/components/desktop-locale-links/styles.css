@@ -1,0 +1,101 @@
+.DesktopLocaleLinks {
+    width: 100%;
+    margin-top: 0.7rem;
+  }
+  
+  .DesktopLocaleLinks__Content {
+    padding-top: 0.4rem;
+    padding-right: 0.5rem;
+    text-align: right;
+    white-space: pre-wrap;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .DesktopLocaleLinks__IconBasicStyle {
+    padding-top: 0.2rem;
+    vertical-align: text-bottom;
+    width: 1.3rem;
+  }
+  
+  .DesktopLocaleLinks__FlagIcon {
+    vertical-align: text-bottom;
+    padding-left: 0.5rem;
+    width: 2.0rem;
+    height: 1.3rem;
+    margin-top: 0.3rem;
+  }
+  
+  .DesktopLocaleLinks__LinkItem {
+    background-color: transparent;
+    color: var(--cc-color);
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0.3rem;
+    padding-top: 0.2rem;
+  }
+  
+  .DesktopLocaleLinks__SiteLink {
+    max-width: 80%;
+    white-space: pre-wrap;
+    padding-left: 0;
+  }
+  
+  .DesktopLocaleLinks__LinkItemIconWithDisplayText {
+    float: left;
+  }
+  
+  .DesktopLocaleLinks__LinkItemLinkWithDisplayText {
+    text-align: left;
+  }
+  
+  .DesktopLocaleLinks__LinkItemLinkWithDisplayText span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .DesktopLocaleLinks__SiteLink span {
+    padding-left: 0.4rem;
+  }
+  
+  .DesktopLocaleLinks__ModalTitle {
+    width: 90%;
+    display: inline-block;
+  }
+  
+  .DesktopLocaleLinks__ModalTitle h2{
+    margin: 0rem;
+  }
+  
+  .CountryStoreLanguageCurrency{
+    color: inherit;
+    margin-bottom: 0.0rem;
+  }
+  
+  .LocalePickerPopover {
+    color: var(--cc-color);
+  }
+  
+  .LocalePickerPopover .Popover {
+    right: 8rem;
+    top: 4rem;
+    width: 35%;
+  }
+  
+  .DesktopLocaleLinks__LocaleSeparator {
+    color: var(--cc-color);
+    padding-top: 0.1rem;
+  }
+  
+  .Modal__Backdrop {
+    background-color: var(--cc-modal-backdrop);
+    height: 100%;
+    opacity: 0;
+    pointer-events: auto;
+    transition: opacity var(--cc-transition);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }

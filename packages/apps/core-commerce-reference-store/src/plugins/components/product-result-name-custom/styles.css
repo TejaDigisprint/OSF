@@ -1,0 +1,6 @@
+.ProductResultName {
+  font-weight: 500;
+  white-space: break-spaces;
+  display: block;
+  color: var(--primarycolor);
+}

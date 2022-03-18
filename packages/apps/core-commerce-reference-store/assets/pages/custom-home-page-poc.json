@@ -1,0 +1,109 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot-custom",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "image-banners-1"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "custom-image-spotlight-1"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        "custom-image-spotlight-2"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        "custom-image-spotlight-3"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        "custom-image-spotlight-4"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        "custom-image-spotlight-5"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        "custom-image-spotlight-6"
+      ],
+      "width": 4,
+      "type": "main"
+    },
+    {
+      "components": [
+        "custom-category-listing-carousel-1"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "custom-category-listing-carousel-2"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "back-to-top-custom"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "Footer-custom"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Home Page"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "home",
+  "title": "Custom Home Page Poc",
+  "shortName": "home",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "home"
+    }
+  }
+}

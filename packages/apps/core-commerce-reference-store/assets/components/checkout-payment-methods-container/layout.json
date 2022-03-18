@@ -1,0 +1,14 @@
+{
+  "regions": [
+    {
+      "components": [
+        "checkout-invoice-payment",
+        "checkout-credit-card",
+        "checkout-pay-in-store",
+        "checkout-gift-card"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

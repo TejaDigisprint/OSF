@@ -1,0 +1,6 @@
+.ProductListingSummaryInformation__Container {
+  text-align: center;
+  color: var(--cc-color);
+  font-size: var(--cc-font-size-small);
+  margin: 1rem 0;
+}

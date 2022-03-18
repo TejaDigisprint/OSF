@@ -1,0 +1,16 @@
+.ProductShippingSurcharge {
+  text-align: left;
+}
+
+.ProductShippingSurcharge .SurchargeValue {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.ProductShippingSurcharge .Details {
+  margin-left: 0.5rem;
+  color: var(--cc-color);
+  text-decoration: underline;
+  font-size: var(--cc-font-size-small);
+  font-weight: normal;
+}

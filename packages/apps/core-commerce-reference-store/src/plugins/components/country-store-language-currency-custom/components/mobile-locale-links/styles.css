@@ -1,0 +1,67 @@
+.MobileLocaleLinks {
+    width: 100%;
+  }
+  
+  .MobileLocaleLinks__Content {
+    width: 100%;
+    padding: 1.1rem;
+  }
+  
+  .MobileLocaleLinks__IconBasicStyle {
+    padding-top: 0.2rem;
+    vertical-align: text-bottom;
+    width: 1.3rem;
+  }
+  
+  .MobileLocaleLinks__FlagIcon {
+    vertical-align: text-bottom;
+    padding-right: 0.5rem;
+    width: 2.0rem;
+    height: 1.3rem;
+  }
+  
+  .MobileLocaleLinks__LinkItem {
+    background-color: transparent;
+    color: var(--cc-color);
+    width:100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0.3rem;
+    padding-right: 0.4rem;
+    padding-top: 0.1rem;
+  }
+   
+  .MobileLocaleLinks__LinkItemIconWithDisplayText{
+    float: left;
+  }
+  
+  .MobileLocaleLinks__LinkItemLinkWithDisplayText{
+    text-align: right;
+    padding-left: 5.0rem;
+  }
+  
+  .MobileLocaleLinks__LinkItemLinkWithDisplayText span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .MobileLocaleLinks__ModalTitle{
+    width: 90%;
+    display: inline-block;
+  }
+  
+  .MobileLocaleLinks__ModalTitle h2{
+    margin: 0rem;
+  }
+  
+  .MobileLocaleLinks__Title {
+    background-color: var(--cc-title-background-color);
+    line-height: 1.2rem;
+    padding-left: 1.0rem;
+    display: flex;
+  }
+  
+  .MobileLocaleLinks__Title h2 {
+    font-weight: normal;
+  }
+  

@@ -1,0 +1,43 @@
+{
+  "regions": [
+    {
+      "components": [
+        "logo-custom"
+      ],
+      "width": 2,
+      "type": "main"
+    },
+    {
+      "components": [
+        "search-box-desktop-custom"
+      ],
+      "width": 5,
+      "type": "main"
+    },
+    {
+      "components": [
+        "country-store-language-currency-desktop-custom",
+        "wish-lists-link",
+        "store-locator-custom",
+        "user-profile-links-desktop-custom",
+        "mini-cart-desktop-custom"
+      ],
+      "width": 5,
+      "type": "main"
+    },
+    {
+      "components": [
+        "collection-navigation-desktop-custom"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "unsaved-changes-message"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

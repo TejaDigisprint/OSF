@@ -1,0 +1,42 @@
+.HeaderContainerMobile__Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  color: var(--cc-root-header-color);
+  white-space: nowrap;
+  background-color: var(--cc-root-header-background-color);
+  padding-right: 0.875rem;
+}
+
+.HeaderContainerMobile__Section > *:last-child {
+  justify-content: flex-end;
+}
+
+.HeaderContainerMobile__Section > *:first-child {
+  justify-content: flex-start;
+}
+
+.HeaderContainerMobile__Section > *:only-child {
+  justify-content: center;
+}
+
+.HeaderContainerMobile__Section > *:not(:first-child):not(:last-child):not(.col-12 + section) {
+  justify-content: center;
+}
+
+.HeaderContainerMobile__Section > *:not(.col-12) {
+  display: inline-flex;
+  padding: 0.25rem;
+}
+
+/* error icon in header should not be 100% */
+.HeaderContainerMobile__Section .Img__Wrapper .Img__MissingImgIcon {
+  width: 24px;
+}
+
+@media (min-width: 600px) {
+  .HeaderContainerMobile__Section > *:not(.col-12) {
+    padding: 0.5rem 0.75rem;
+  }
+}

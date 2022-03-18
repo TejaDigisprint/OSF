@@ -1,0 +1,41 @@
+.ProfileUpdateExpiredPassword input,
+.ProfileUpdateExpiredPassword button {
+  width: 100%
+}
+
+.ProfileUpdateExpiredPassword {
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--cc-font-size);
+  width: 35%;
+  margin-left: 31%;
+}
+.profile_update-password{
+  width:100%;
+}
+.ProfileUpdateExpiredPassword__EmailIcon,
+.ProfileUpdateExpiredPassword__PasswordIcon {
+  position: absolute;
+  right: .5em;
+  top: 0.85em;
+}
+
+.ProfileUpdateExpiredPassword__EmailField .Icon,
+.ProfileUpdateExpiredPassword__PasswordField .Icon {
+  height: 1rem;
+}
+
+.ProfileUpdateExpiredPassword__EmailField,
+.ProfileUpdateExpiredPassword__PasswordField {
+  position: relative;
+}
+
+.ProfileUpdateExpiredPassword__StatusMessage > * {
+  margin-bottom: 0.75rem;
+}
+
+.ProfileUpdateExpiredPassword__InputFields > form > * {
+  margin-bottom: 1rem;
+}

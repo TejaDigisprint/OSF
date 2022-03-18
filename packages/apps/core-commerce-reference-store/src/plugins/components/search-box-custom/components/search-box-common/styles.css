@@ -1,0 +1,49 @@
+
+
+.SearchBoxCommon__Content {
+  margin: .65rem 1rem;
+  display: block;
+}
+
+.SearchBoxCommon__Form {
+  width: 100%;
+}
+
+.SearchBoxCommon__Content form {
+  display: flex;
+}
+
+.SearchBoxCommon__Input,
+.SearchBoxCommon__Input:focus {
+  flex: 1;
+  border: none;
+  padding-left: 1.2rem;
+  font-size: var(--cc-font-size);
+  box-shadow: 0 0 0 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.SearchBoxCommon__Input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.SearchBoxCommon__Input::-ms-clear {
+  -webkit-appearance: none;
+}
+
+.SearchBoxCommon__ClearButton {
+  border: none;
+  padding: 0 1rem 0 0;
+  background: transparent;
+  color: var(--cc-a-color);
+  cursor: pointer;
+}
+
+
+.SearchBoxCommon__ClearButton:hover {
+  text-decoration: underline;
+}

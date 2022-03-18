@@ -1,0 +1,51 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "re501217",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "contactus-web-content"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Custom Wishlist "
+      }
+    },
+    "pageTitle": {
+      "en": {
+        "pageTitle": "wishlist"
+      }
+    }
+  },
+  "address": "wishlistCustom",
+  "allowCustomAddress": true,
+  "title": " wishlist layout Custom",
+  "shortName": "article",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "article"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.Login input,
+.Login button,
+.Login a {
+  width: 100%
+}
+
+.Login {
+  padding: 0 var(--cc-container-padding);
+  display: flex;
+  flex-direction: column;
+  font-size: var(--cc-font-size);
+}
+
+.Login_div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 40px 0px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.submitBtn {
+  background-color:var(--primarycolor)
+}
+
+.Login > form > div {
+  margin-bottom: 1em;
+}
+
+.Login__EmailIcon, 
+.Login__PasswordIcon {
+  position: absolute;
+  right: .5em;
+  top: 0.85em;
+}
+
+.Login__EmailField .Icon,
+.Login__PasswordField .Icon{
+  height: 1rem;
+}
+
+.Login__EmailField,
+.Login__PasswordField {
+  position: relative;
+}
+
+.Login__ForgotPassword {
+  text-align: right;
+}
+
+.Login__ForgotPassword__Link {
+  color: var(--cc-color);
+  text-decoration: underline
+}
+
+.Login__LinkToCreateAccount {
+  margin-bottom: 1em;
+}

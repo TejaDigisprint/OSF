@@ -1,0 +1,14 @@
+{
+  "regions": [
+    {
+      "components": [
+        "product-result-image",
+        "product-result-name-custom",
+        "product-result-color-swatches-custom",
+        "product-result-price-custom"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

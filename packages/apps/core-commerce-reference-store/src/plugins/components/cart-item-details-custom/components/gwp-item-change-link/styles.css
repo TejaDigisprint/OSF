@@ -1,0 +1,20 @@
+.GWPItemChangeLink__LinkItemDisplayName {
+  text-align: left;
+  text-decoration: underline;
+  font-size: smaller;
+}
+
+.GWPItemChangeLink__LinkItemDisplayName span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.GWPItemChangeLink__LinkItem {
+  background-color: transparent;
+  color: #4A4A4A;
+  width:100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0.5rem;
+  padding-right: 0.4rem;
+}

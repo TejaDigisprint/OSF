@@ -1,0 +1,25 @@
+{
+  "regions": [
+    {
+      "components": [
+        "footer-static-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "links-list-custom"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "web-content-copy-right-custom"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

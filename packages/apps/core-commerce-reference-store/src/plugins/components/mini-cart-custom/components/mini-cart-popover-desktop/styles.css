@@ -1,0 +1,20 @@
+.MiniCartDesktop__Popover {
+  transition: var(--cc-transition);
+}
+
+.MiniCartDesktop .Popover {
+  right: 0px;
+  top: 1rem;
+}
+
+.MiniCartDesktop .Popover__HeaderTitle {
+  color: var(--cc-color);
+}
+
+.MiniCartDesktop .Popover__Header {
+  margin-bottom: var(--cc-container-padding);
+}
+  
+.MiniCartDesktop .Popover__Wrapper {
+  width: 22rem;
+}

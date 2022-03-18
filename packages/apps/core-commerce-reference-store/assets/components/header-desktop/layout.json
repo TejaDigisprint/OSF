@@ -1,0 +1,35 @@
+{
+  "regions": [
+    {
+      "components": [
+        "logo",
+        "skip-to-content-button"
+      ],
+      "width": 3,
+      "type": "main"
+    },
+    {
+      "components": [
+        "search-box-desktop"
+      ],
+      "width": 7,
+      "type": "main"
+    },
+    {
+      "components": [
+        "country-store-language-currency-desktop",
+        "user-profile-links-desktop",
+        "mini-cart-desktop"
+      ],
+      "width": 2,
+      "type": "main"
+    },
+    {
+      "components": [
+        "collection-navigation-desktop"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ]
+}

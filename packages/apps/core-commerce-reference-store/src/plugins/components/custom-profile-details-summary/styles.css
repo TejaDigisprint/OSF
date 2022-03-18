@@ -1,0 +1,71 @@
+.ProfileDetailsSummary {
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 1.5rem;
+}
+
+.ProfileDetailsSummary_div {
+  padding-top: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09);
+}
+
+.ProfileDetailsSummary_div:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ProfileDetailsSummary .Card {
+  margin: 0 0 1.25rem;
+  border: 1px solid transparent;
+  border-top: 1px solid var(--cc-border-color);
+  border-radius: 0;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.ProfileDetailsSummary__UpdateProfileDetailsLink {
+  float: right;
+}
+
+.ProfileDetailsSummary__UpdateProfileDetailsLink a {
+  color: var(--cc-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.ProfileDetailsSummary__IconBasicStyle {
+  padding-top: 0.5rem;
+  padding-right: 0.7rem;
+  color: var(--cc-icon-color);
+  vertical-align: text-top;
+  float: left;
+}
+
+.ProfileDetailsSummary__Item {
+  vertical-align: middle;
+  line-height: 1.5rem;
+  float: none;
+}
+
+.ProfileDetailsSummary__Item_Text {
+  padding-top: 0.18rem;
+}
+
+/* .ProfileDetailsSummary .Card:hover {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+} */
+
+@media only screen and (max-width: 768px) {
+  .ProfileDetailsSummary .Card {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+
+  .ProfileDetailsSummary_div {
+    padding-top: 0px;
+    box-shadow: none;
+  }
+}

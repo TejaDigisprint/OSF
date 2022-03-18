@@ -1,0 +1,81 @@
+.ProfileResetPassword input,
+.ProfileResetPassword button {
+  width: 100%
+}
+
+.ProfileResetPassword p {
+  margin-top: 0;
+}
+
+.ProfileResetPassword {
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--cc-font-size);
+}
+
+.ProfileResetPassword_div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 40px;
+  padding: 20px 1rem;
+  border-radius: 4px;
+}
+
+.submitBtn {
+  background-color:var(--primarycolor)
+}
+
+.ProfileResetPassword__Username {
+  margin-bottom: 2.5em;
+}
+
+.ProfileResetPassword__EmailIcon {
+  position: absolute;
+  right: .5em;
+  top: 0.55em;
+  width: 1.2rem;
+}
+
+.ProfileResetPassword__EmailField {
+  position: relative;
+}
+.ResponsiveContainer__Section {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  width: 100%;
+
+}
+
+
+
+.justifyCenter {
+
+  justify-content: center;
+
+}
+
+
+
+.ResponsiveContainer__Section > section:empty{
+
+  display: none;
+
+}
+
+
+
+@media only screen and (max-width: 790px) {
+
+  .ResponsiveContainer__Section > section{
+
+    width: 100%;
+
+  }
+
+}

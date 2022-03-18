@@ -1,0 +1,30 @@
+.ShippingGroupDetails__Wrapper {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+}
+
+.ShippingGroupDetails__ShippingGroupData {
+  padding: 2rem;
+}
+
+.ShippingGroupDetails__AddANewAddress {
+  padding: 1rem;
+  border-top: 1px solid var(--cc-border-color);
+}
+
+.ShippingGroupDetails__HeadingContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.ShippingGroupDetails__HeadingContainer button, .ShippingGroupDetails__HeadingContainer button:hover {
+  text-decoration: underline;
+  font-size: var(--cc-font-size-small);
+  background-color: var(--cc-background-color);
+  padding: 0;
+  color: var(--cc-color);
+  display: inline-block;
+  text-align: unset;
+  width: unset;
+  margin-left: auto;
+}

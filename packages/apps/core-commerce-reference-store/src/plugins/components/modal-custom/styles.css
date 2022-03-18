@@ -1,0 +1,111 @@
+
+.Modal {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden !important;
+  overflow-y: auto;
+  outline: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  transform: translateY(-100%);
+  white-space: normal;
+}
+.Modal__Backdrop {
+  background-color: var(--cc-modal-backdrop);
+  height: 100%;
+  opacity: 0;
+  pointer-events: auto;
+  transition: opacity var(--cc-transition);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.Modal_Wrapper {
+  width: 100%;
+  background-color: var(--cc-background-color);
+  padding: .5rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-100%);
+  transition: transform var(--cc-transition);
+  border-radius: 25px;
+  overflow:hidden;
+}
+.Modal::-webkit-scrollbar{
+  display: none;
+}
+
+.Modal.Modal__Open {
+  transform: translateY(0);
+}
+
+.Modal.Modal__Open .Modal_Wrapper{
+  transform: translateY(0);
+}
+
+.Modal.Modal__Open .Modal__Backdrop {
+  opacity: 1;
+}
+.Modal__Header {
+  display: flex;
+}
+.Modal__Header > * {
+  display: inline-flex;
+}
+.Modal__Header > *:last-child {
+  justify-content: flex-end;
+  outline: none;
+}
+.Modal__HeaderText {
+  width: 90%;
+  font-size: 1.25rem;
+  flex: 1;
+}
+.Modal__HeaderText > * {
+  display: inline-flex;
+}
+
+.Modal__Close {
+  color: var(--cc-icon-color);
+  cursor: pointer;
+}
+.Modal__Close:hover {
+  color: var(--cc-icon-color-hover);
+}
+@media (min-width: 768px) {
+  .Modal{
+    overflow: hidden;
+  }
+  .Modal::-webkit-scrollbar{
+    display: none;
+  }
+  .Modal_Wrapper {
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    overflow: hidden;
+    overflow-y: auto;
+    max-height: 90%;
+    transition: none;
+  }
+  
+  .Modal.Modal__Open .Modal_Wrapper{
+    transform: translate(-50%, -50%);
+  }
+  
+}
+
+.Modal_Wrapper>.card{
+  max-width:215px !important;
+}

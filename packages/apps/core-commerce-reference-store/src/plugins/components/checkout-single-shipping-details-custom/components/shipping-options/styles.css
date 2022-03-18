@@ -1,0 +1,25 @@
+.ShippingOptions {
+  margin: 1.5rem 0;
+}
+
+.ShippingOptions__RadioButtons {
+  margin-top: 0.5rem;
+}
+
+.ShippingOptions .Radio label {
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.ShippingOptions__Dropdown {
+  margin-top: 1.2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .ShippingOptions__Dropdown {
+    display: flex;
+  }
+  .Dropdown__Select {
+    min-width: 20%;
+  }
+}

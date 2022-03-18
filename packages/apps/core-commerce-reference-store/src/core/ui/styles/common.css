@@ -1,0 +1,213 @@
+@import "@oracle-cx-commerce/styles/common.css";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primarycolor: #24a3b5;
+  --whitecolor: #ffffff;
+  --warningcolor:#e2d51d;
+  --blackcolor:#000000;
+  --lightblackcolor:#666;
+  --aliceblue:aliceblue;
+  --errorcolor:#eb3131;
+  --fontfamilylight:300;
+  --fontfamilynormal:400;
+  --fontfamilymedium:500;
+  --fontfamiybold:700;
+  --fontfamily:'Roboto', sans-serif;
+  --boxshadowasTransparentGlass:rgb(36, 163, 181) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  --boxshadowwithlightinset:rgb(36, 163, 181) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  --letterspacing:1.1;
+  --headerfontsize:14px;
+  /* override */
+  --cc-button-background-color:#24a3b5 !important;
+  /* --cc-a-color-active:none; */
+  /* over ride */
+  --cc-a-color:#24a3b5 !important;
+  --cc-button-background-color-hover:#24a3b5 !important;
+  /* --cc-a-color-active:none; */
+  /* override */
+  /* --cc-a-color-active:#24a3b5 !important; */
+  /* override */
+  /* --cc-button-background-color:#24a3b5 !important; */
+  /* override */
+  /* --cc-button-background-color-hover:#24a3b5 !important; */
+  /* override */
+  /* --cc-button-background-color-active:#24a3b5 !important; */
+}
+
+body{
+    font-family: var(--fontfamily);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a:active{
+  border: none;
+}
+.DynamicProductListItem__Product {
+    vertical-align: super;
+    transition: 0,4s;
+    overflow: hidden;
+  }
+  .DynamicProductListItem__Product:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.1);
+    transition: 0.4s;
+  }
+  .DynamicProductList__Table {
+    text-align: center;
+    display: grid;
+    grid-gap: 6rem 14px !important;
+    min-width: 265px;
+  }
+  .ResponsiveContainer__Section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.SortResults__Content--Desktop {
+
+  width: auto;
+
+  right: 2.875rem !important;
+
+  margin-top: -43px;
+
+  /* bottom: 229px; */
+
+}
+
+
+
+
+  .SortResults__CaretIcon .Icon {
+
+    height: 44px;
+    margin-top: 20px;
+    
+    }
+    .SortResults__CaretIcon {
+    
+    transform: translate(52%, -46%);
+    pointer-events: none;
+    color: black;
+    
+    }
+
+    button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+a:focus,
+[role=menuitem]:focus,
+[role=button]:focus,
+[role=link]:focus,
+a.button.secondary:focus,
+a.button:focus,
+button.link:focus,
+button.secondary:focus {
+outline: 0;
+/* box-shadow: 0 0 0 0.2rem var(--cc-focusring-halo-color); */
+}
+   
+.DynamicProductListingContainer {
+  padding: 0.5rem var(--cc-container-padding);
+  text-align: center;
+  background: #F0F2F4 !important;
+}
+
+.RefinementMenu__RefinementHeader {
+  margin: 1rem 0 0.5rem 0;
+  padding: 0 0.5rem;
+  width: 100%;
+  height: 28px;
+  vertical-align: baseline;
+  display: flex;
+  justify-content: space-around !important;
+}
+
+.CategoryMenu__RefinementHeader {
+  /* margin: 1rem 0 0.5rem 0; */
+  padding: 0 19px;
+  /* padding: 1px 1.5rem; */
+  font-weight: 200;
+  width: 100%;
+  height: 28px;
+  vertical-align: baseline;
+  display: flex;
+  justify-content: space-around;
+}
+button:focus, input:focus, select:focus, textarea:focus, a:focus, [role=menuitem]:focus, [role=button]:focus, [role=link]:focus, a.button.secondary:focus, a.button:focus, button.link:focus, button.secondary:focus {
+
+  box-shadow: none !important;
+
+}
+
+
+
+a:hover,a:active{
+
+  color: #24a3b5 !important;
+
+  border: none !important;
+
+}
+
+
+
+a svg{
+
+  color: white !important;
+
+}
+
+.Image_Spot{
+  margin-bottom: 50px;
+}
+
+.FacetedNavigationDesktop__Content {
+
+  display: block;
+
+  text-align: left;
+
+  background: white !important;
+
+  color: #4a4a4a;
+
+  color: var(--cc-color);
+
+}
+
+.DynamicProductList__Table--Desktop {
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  /* padding: 3rem 0 0 0; */
+
+  padding: 20px !important;
+
+}
+
+.DynamicProductList__Table {
+
+  text-align: center;
+
+  display: grid;
+
+  background: white;
+
+  grid-gap: 6rem 14px !important;
+
+  min-width: 265px;
+
+  margin: 17px 0px !important;
+
+
+}

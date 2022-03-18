@@ -1,0 +1,20 @@
+.CountryStoreLanguageCurrencyDesktop {
+    width: 50%;
+    text-align: center;
+    padding: 0 30px;
+    position: relative;
+    top: -10px;
+    }
+.Currency_ptag{
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.41px;
+    padding: 10px;
+    margin: 0px;
+}
+.Dropdown__Icon svg {
+    height: 1.5em!important;
+    vertical-align: bottom;
+    width: 0.5rem;
+    color: black;
+}

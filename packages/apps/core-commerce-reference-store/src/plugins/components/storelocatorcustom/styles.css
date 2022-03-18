@@ -1,0 +1,32 @@
+.storelocatorcustom {
+  text-align: center;
+  /* margin: 9px; */
+  padding: 9px;
+  cursor: pointer;
+}
+
+.storelocatorcustom__Container {
+  /* color: #729fff; */
+  text-align: center;
+  /* margin: 7px; */
+  padding: 3px;
+}
+.storelocatorcustom__Icon {
+ font-size: 22px;
+  
+}
+.storelocatorcustom__text{
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+/**
+ *  CSS uses the Block Element Modifier naming convention, an example :
+.storelocatorcustom__ElementName {
+  display: inline-block;
+  font-size: large;
+}
+ * For more information - http://getbem.com/
+ */

@@ -1,0 +1,48 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot-custom",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "checkout-progress-tracker",
+        "checkout-payments-container-custom",
+        "back-to-top-custom"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "Footer-custom"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Checkout Payment"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "checkout-payment",
+  "title": "Custom Checkout Payment",
+  "shortName": "checkout-payment",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "checkout-payment"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.DynamicBreadcrumbs {
+  padding: 0.5rem var(--cc-container-padding);
+  font-size: var(--cc-font-size-small);
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.DynamicBreadcrumbs__BreadcrumbLabel {
+  color: var(--cc-color);
+  text-decoration: none
+}
+
+.DynamicBreadcrumbs__BreadcrumbLink,
+.DynamicBreadcrumbs__BreadcrumbLink:active,
+.DynamicBreadcrumbs__BreadcrumbLink:hover {
+  color: var(--cc-color);
+  text-decoration: underline;
+}
+
+.DynamicBreadcrumbs__CorrectedLabel {
+  text-decoration: line-through;
+  color: var(--cc-validation-error-color);
+}

@@ -1,0 +1,21 @@
+.ShowMoreProductsButton__Button {
+  font-size: var(--cc-font-size-large);
+  margin: 1rem;
+  border-radius: var(--cc-border-radius);
+  border-width: .5px;
+  border: 1px solid var(--cc-border-color);
+  outline: none;
+}
+
+.ShowMoreProductsButton__Button--Desktop {
+  min-width: 300px;
+  width: auto;
+}
+
+.ShowMoreProductsButton__Button--Mobile {
+  width: calc(100% - 2rem)
+}
+
+.ShowMoreProductsButton__HiddenLink {
+  display: none;
+}

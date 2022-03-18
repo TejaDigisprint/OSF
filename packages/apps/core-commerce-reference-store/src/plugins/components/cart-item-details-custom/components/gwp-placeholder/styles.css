@@ -1,0 +1,53 @@
+.GWPPlaceholder__GiftIconContainer {
+  flex: 1 1 calc(100% * (3 / 12));
+  color: var(--cc-icon-color);
+  border: 0.1rem solid var(--cc-icon-color);
+  display: flex;
+  max-width: 5rem;
+  height: 4rem;
+  padding: 0.5rem;
+}
+
+.GWPPlaceholder__ItemBasicDetails {
+  margin-left: 1rem;
+}
+
+
+.GWPPlaceholder__LinkItemDisplayName {
+  text-align: left;
+  text-decoration: underline;
+  font-size: smaller;
+}
+
+.GWPPlaceholder__LinkItemDisplayName span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.GWPPlaceholder__LinkItem {
+  background-color: transparent;
+  color: #4A4A4A;
+  width:100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0.5rem;
+  padding-right: 0.4rem;
+}
+
+.GWPPlaceholder__ItemDetails {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid var(--cc-border-color);
+  padding: 0.9375rem 0;
+}
+
+.GWPPlaceholder__GiftIconContainer svg.GWPPlaceholder__GiftIcon {
+  height: 3rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .GWPPlaceholder__GiftIconContainer {
+    max-width: 6rem;
+  }
+}

@@ -1,0 +1,32 @@
+.BackToTopLink {
+  position: fixed;
+  bottom: 50px;
+  right: 15px;
+  background: var(--primarycolor);
+  opacity: .9;
+  border-radius: 50%;
+  color: black;
+  padding: 0;
+  z-index: 1;
+  display: block;
+}
+
+/* Override default button hover/active/focus styling */
+.BackToTopLink button:not(:disabled):hover {
+  background: var(--primarycolor);
+}
+.BackToTopLink button:not(:disabled):active {
+  background:var(--primarycolor);
+}
+.BackToTopLink button:focus {
+  box-shadow: 0 0 0 0 var(--primarycolor);
+}
+
+.BackToTopLink--hidden {
+  display: none;
+}
+
+.BackToTopLink .reactUpIcon{
+  font-size: 17px;
+  color: white;
+}

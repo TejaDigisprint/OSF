@@ -1,0 +1,42 @@
+.ProductNotifyMe {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0.5rem 0;
+}
+
+.ProductNotifyMe__Button {
+  flex: 1;
+  text-align: center;
+  margin-top: 0.75rem;
+}
+
+.ProductNotifyMe__EmailLabel {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.ProductNotifyMe__Input {
+  position: relative;
+}
+
+.ProductNotifyMe__Input input {
+  width: 100%;
+}
+
+.ProductNotifyMe__Input input[type=text] {
+  padding: 0.5rem 2.25rem 0.5rem 0.5rem;
+}
+
+.ProductNotifyMe__EmailIcon {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  padding: 2px 8px;
+}

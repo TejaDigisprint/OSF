@@ -1,0 +1,22 @@
+.ResponsiveContainer__Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.ResponsiveContainer__Section > section:empty{
+  display: none;
+}
+
+@media only screen and (max-width: 790px) {
+  .ResponsiveContainer__Section > section{
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

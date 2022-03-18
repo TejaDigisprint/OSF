@@ -1,0 +1,9 @@
+.QuickView {
+  display: flex;
+  
+}
+
+.QuickView__ProductDetails {
+  padding: 1rem;
+  flex: 1;
+}

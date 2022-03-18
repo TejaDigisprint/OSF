@@ -1,0 +1,9 @@
+.CheckoutButton {
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 3rem;
+}
+
+.CheckoutButton button{
+  width: 100%;
+  margin-top: 1rem;
+}

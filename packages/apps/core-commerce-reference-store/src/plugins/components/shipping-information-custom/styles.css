@@ -1,0 +1,43 @@
+.ShippingInformation__ErrorMessage {
+  text-align: center;
+  margin: 2rem;
+}
+.ShippingInformation__HeadingContainer {
+  display: flex;
+  flex-direction: row;
+}
+.ShippingInformation__EditPayment {
+  margin-left: auto;
+  margin-top: 0.4em;
+  text-decoration: underline;
+}
+.ShippingInformation__EditPayment button, .ShippingInformation__EditPayment button:hover {
+  color: var(--cc-color);
+  vertical-align: middle;
+  background: none;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.ShippingInformation__EditPayment--disable {
+  margin-left: auto;
+  margin-top: 0.4em;
+  text-decoration: underline;
+}
+.ShippingInformation__EditPayment--disable button {
+  color: var(--cc-color);
+  vertical-align: middle;
+  pointer-events: none;
+  background: none;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+}
+.ShippingInformation .ShippingGroup__Heading {
+  margin: 0;
+}
+.ShippingInformation .Card {
+  margin-top: 0.5rem;
+  background: white !important;
+}

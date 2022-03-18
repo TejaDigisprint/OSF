@@ -1,0 +1,63 @@
+.GWPItemSelectionModal__Header  {
+  display: flex;
+  overflow: auto;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.GWPItemSelectionModal__Header img {
+  float:left;
+  padding-right: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .GWPItemSelectionModal__SubmitButtonDiv {
+    width: 50%;
+    margin: 0.75rem 0;
+    text-align: right;
+  }
+  .GWPItemSelectionModal__SubmitButtonDiv button {
+    width: 10.0rem;
+    margin-right: 1.0rem;
+  }
+  .GWPItemSelectionModal__InputElement .AddToCartButton__Wrapper {
+    width: 50%;
+    float: right;
+  }
+  .GWPItemSelectionModal__InputElement .AddToCartButton__Wrapper form button {
+    flex: none;
+    margin: 0.75rem 0;
+    width: 10.0rem;
+    margin-left: 1.0rem
+}
+}
+
+.GWPItemSelectionModal__InputElement label {
+  margin-top: 1.0rem;
+}
+.GWPItemSelectionModal__HeaderText {
+  flex: 1;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.GWPItemSelectionModal__Header .ProductName {
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+.ProductVariantOptions {
+  padding-top: 1rem;
+}
+
+.ProductVariantOptions__OptionName {
+  margin-top: 1.5rem;
+}
+
+.GWPItemSelectionModal .Modal__Header  {
+  padding-bottom: 2rem;
+}
+
+.GWPItemSelectionModal__SubmitButton {
+  width: 100%;
+}

@@ -1,0 +1,57 @@
+.QuickViewPlaceholder {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.QuickViewPlaceholder__Left {
+  display: flex;
+  width: 46%;
+  height: 80%;
+  justify-content: normal;
+  margin-left: 1rem;
+}
+
+.QuickViewPlaceholder__Right {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.QuickViewPlaceholder__Left > *,
+.QuickViewPlaceholder__Right > * {
+  margin-bottom: 0.625rem;
+  margin-right: 0.625rem;
+  background-color: var(--cc-pageloader-box-background);
+}
+
+.QuickViewPlaceholder__Img {
+  padding-bottom: 10%;
+  width: min(30rem, 40vw);
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.QuickViewPlaceholder__Title {
+  width: min(20rem, 35vw);
+  padding-bottom: 2rem;
+}
+
+.QuickViewPlaceholder__Price {
+  width: 12.5rem;
+  padding-bottom: 2rem;
+}
+
+.QuickViewPlaceholder__Variants {
+  width: min(20rem, 35vw);
+  padding-bottom: 12.25rem;
+}
+
+.QuickViewPlaceholder__AddToCart {
+  width: 20rem;
+  margin-top: min(2.5rem, 25%);
+  padding-bottom: 3.75rem;
+}

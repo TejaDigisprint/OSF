@@ -1,0 +1,11 @@
+{
+  "mediaTitle": "Logo",
+  "mediaScreenTextPosition": "below",
+  "media": {
+    "src": "",
+    "mediaName": ""
+  },
+  "mediaAlt": "ImageLogo",
+  "mediaLinkBehavior": "_self",
+  "mediaLink": "/home"
+}

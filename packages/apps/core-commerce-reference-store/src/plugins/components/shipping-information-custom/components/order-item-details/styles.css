@@ -1,0 +1,39 @@
+.OrderItemDetails__Item {
+  border-bottom: 1px solid var(--cc-border-color);
+  padding: 0.9375rem 0;
+}
+.OrderItemDetails__Item:last-child {
+  border-bottom: none;
+}
+@media only screen and (min-width: 768px) {
+  .OrderItemDetails .CartItemsTableHeader {
+    display: flex;
+    padding-top: 0.325rem;
+  }
+  .OrderItemDetails .CartItemDetails__ItemDetailsHeading {
+    width: 55%;
+  }
+  .OrderItemDetails .CartItemDetails__ItemPriceHeading {
+    width: 15%;
+    text-align: left;
+    padding-right: 3%;
+  }
+  .OrderItemDetails .CartItemDetails__QuantityTotalContainer {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+  }
+  .OrderItemDetails .CartItemDetails__ItemQunatityHeading {
+    text-align: right;
+    flex: 0 0 36%;
+  }
+  .OrderItemDetails .CartItemDetails__ItemTotalHeading {
+    flex: 0 0 64%;
+    text-align: right;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .OrderItemDetails .CartItemsTableHeader {
+    display: none;
+  }
+}

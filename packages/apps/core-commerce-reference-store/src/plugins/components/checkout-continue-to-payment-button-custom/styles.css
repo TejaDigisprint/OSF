@@ -1,0 +1,26 @@
+.CheckoutContinueToPaymentButton {
+  justify-content: start;
+  padding: 0 var(--cc-container-padding);
+  margin: 15px;
+  margin-left: 130px;
+}
+
+@media (min-width: 768px) {
+  .CheckoutContinueToPaymentButton__Continue {
+    margin: 1em 0;
+    display: inline-block;
+   
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .CheckoutContinueToPaymentButton {
+    justify-content: center;
+  }
+
+  .CheckoutContinueToPaymentButton__Continue {
+    margin: 1em 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+.CartValidation {
+    margin: 2rem var(--cc-container-padding);
+}
+.CartValidation .Alert__Message--Warning{
+    padding: 1rem;
+}
+.CartValidation__AlertHeading {
+    font-weight: bold;
+}
+.CartValidation__AlertMessageBody {
+    margin: 0.5rem 0;
+}
+.CartValidation__AlertGWPMessage {
+    margin: 0.5rem 0;
+}
+.CartValidation__AlertItemCount {
+    font-weight: 500;
+}
+
+.CartValidation__PriceChangeMessage > span:nth-child(1) {
+  font-weight: bold;
+}
+
+.CartValidation__PriceChangeMessage > span:nth-child(2), .CartValidation__PriceChangeMessage > span:nth-child(3) {
+  color: var(--cc-error-message-color);
+}
+
+.CartValidation__PriceChangeItemCount {
+  margin: 0.5rem 0;
+}
+
+.CartValidation__PriceChangeItemCount > span:nth-child(1) {
+  font-weight: 500;
+}
+
+.CartValidationAlert__ProductName  {
+  font-weight: bold;
+}

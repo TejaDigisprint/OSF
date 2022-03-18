@@ -1,0 +1,13 @@
+.ProfileWelcome {
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 1.0rem;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.ProfileWelcome__WelcomeText {
+  margin-top: -0.5rem;
+  font-size: 2rem;
+}

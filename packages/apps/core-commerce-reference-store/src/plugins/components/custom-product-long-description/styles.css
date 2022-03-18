@@ -1,0 +1,17 @@
+ .ProductLongDescription {
+   margin-bottom: 1rem;
+   font-weight: 400;
+ }
+ 
+ /* .ProductLongDescription__Html {
+  padding: .5rem 0
+ } */
+
+.ProductLongDescription .Collapsible__Wrapper {
+  border-bottom: 2px solid var(--cc-collapsible-button-background-color);
+}
+
+.ProductLongDescription .Collapsible__Wrapper span:first-child {
+  font-size: var(--cc-font-size-large);
+  /* font-weight: 500; */
+}

@@ -1,0 +1,50 @@
+
+.CollectionNavigationDesktop__DropDownMenu {
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  background-color: var(--whitecolor);
+  width: 100%;
+  padding: 1rem 5%;
+  box-shadow: var(--boxshadowwithlightinset);
+  font-size: var(--cc-font-size-small);
+  align-items: stretch;
+  justify-content: space-between;
+  transition: visibility 0.2s,opacity .2s var(--cc-transition);
+  transition-delay: .2s;
+}
+
+.CollectionNavigationDesktop__DropDownLinks {
+  display: flex;
+  padding: 0% 2%;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.CollectionNavigationDesktop__DropDownLinks > * {
+ 
+  white-space: normal;
+  max-width: 30%;
+  min-width: fit-content;
+}
+
+.CollectionNavigationDesktop__NonLeafCategories > a, .CollectionNavigationDesktop__LeafCategories a {
+  font-weight: bold;
+}
+
+.CollectionNavigationDesktop__LeafCategories ul {
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .CollectionNavigationDesktop__DropDownLinks {
+    justify-content: space-between;
+    margin: 0 1.5rem 0 1.5rem;
+   }
+}
+

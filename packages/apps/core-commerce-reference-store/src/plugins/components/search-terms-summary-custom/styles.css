@@ -1,0 +1,19 @@
+.SearchTermsSummary__SuggestedSearch,
+.SearchTermsSummary__SearchAdjusted:nth-child(1) span {
+  font-weight: bold;
+}
+
+.SearchTermsSummary__OriginalSearch:nth-child(1) span,
+.SearchTermsSummary__NoResults:nth-child(1) span {
+  font-weight: bold;
+  font-size: var(--cc-font-size-large);
+}
+
+.SearchTermsSummary__ErrorMessage {
+  padding: 2rem;
+}
+
+.SearchTermsSummary__Container {
+  text-align: center;
+  color: var(--cc-color);
+}

@@ -1,0 +1,21 @@
+{
+  "layout": [
+    
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Checkout Payer Authentication"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "checkout-payer-authentication",
+  "title": "Checkout Payer Authentication",
+  "shortName": "checkout-payer-auth",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "checkout-payer-auth"
+    }
+  }
+}

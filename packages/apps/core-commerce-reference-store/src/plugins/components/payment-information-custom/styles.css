@@ -1,0 +1,40 @@
+.PaymentInformation__HeadingContainer {
+  display: flex;
+  flex-direction: row;
+}
+.PaymentInformation__PaymentGroupItem {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--cc-border-color);
+  padding: 0.9375rem 0;
+}
+.PaymentInformation__PaymentGroupItem:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.PaymentInformation__PaymentGroupItem:first-child {
+  padding-top: 0;
+}
+.PaymentInformation__EditPayment {
+  margin-left: auto;
+  margin-top: 0.4em;
+  text-decoration: underline;
+}
+.PaymentInformation__EditPayment a {
+  color: var(--cc-color);
+  vertical-align: middle;
+}
+.PaymentInformation__EditPayment--disable {
+  margin-left: auto;
+  margin-top: 0.4em;
+  text-decoration: underline;
+}
+.PaymentInformation__EditPayment--disable a {
+  color: var(--cc-color);
+  vertical-align: middle;
+  pointer-events: none;
+}
+.PaymentInformation__Card {
+  margin-top: 0.5em;
+  background: white !important;
+}

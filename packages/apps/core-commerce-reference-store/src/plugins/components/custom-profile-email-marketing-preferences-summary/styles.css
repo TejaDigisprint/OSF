@@ -1,0 +1,80 @@
+.ProfileEmailMarketingPreferencesSummary {
+  width: 100%;
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 1.5rem;
+}
+
+.ProfileEmailMarketingPreferencesSummary_div {
+  padding-top: 5px;
+  margin-left: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09);
+}
+
+.ProfileEmailMarketingPreferencesSummary_div:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ProfileEmailMarketingPreferencesSummary .Card {
+  margin: 0 0 1.25rem;
+  border: 1px solid transparent;
+  border-top: 1px solid var(--cc-border-color);
+  border-radius: 0;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.ProfileEmailMarketingPreferencesSummary__EditLink {
+  padding-left: 0.25rem;
+}
+
+.ProfileEmailMarketingPreferencesSummary a {
+  text-decoration: underline;
+  color: var(--cc-color);
+}
+
+.ProfileEmailMarketingPreferencesSummary svg{
+  margin: 0;
+  height: 2.2em;
+  color: var(--cc-icon-color);
+}
+
+.ProfileEmailMarketingPreferencesSummary__Content {
+  display: flex;
+  flex-direction: row;
+}
+
+.ProfileEmailMarketingPreferencesSummary__List {
+  margin: 0.25rem 0 0.25rem 1rem;
+  flex: 1;
+  align-self: center;
+}
+
+.ProfileEmailMarketingPreferencesSummary__List ul{
+  list-style: disc;
+  margin: 0;
+  margin-left: 2.25rem;
+}
+
+/* .ProfileEmailMarketingPreferencesSummary .Card:hover {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+} */
+
+@media only screen and (max-width: 768px) {
+  .ProfileEmailMarketingPreferencesSummary .Card {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+
+  .ProfileEmailMarketingPreferencesSummary_div {
+    padding-top: 0px;
+    margin-left: 0px;
+    box-shadow: none;
+  }
+}

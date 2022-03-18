@@ -1,0 +1,20 @@
+{
+  "regions": [
+    {
+      "components": [
+        "cart-item-details-custom",
+        "promotions"
+      ],
+      "width": 8,
+      "type": "main"
+    },
+    {
+      "components": [
+        "cart-order-summary-custom",
+        "checkout-button-custom"
+      ],
+      "width": 3,
+      "type": "main"
+    }
+  ]
+}

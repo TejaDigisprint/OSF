@@ -1,0 +1,40 @@
+.DynamicProductList__Table {
+
+  text-align: center;
+
+  display: grid;
+
+  background: white;
+
+  grid-gap: 6rem 14px !important;
+
+  min-width: 265px;
+
+  margin: 17px 0;
+
+
+
+}
+
+.DynamicProductList__Table--Mobile {
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 0 0 0;
+}
+
+.DynamicProductList__Table--Desktop {
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  /* padding: 3rem 0 0 0; */
+
+  padding: 20px !important;
+
+}
+
+.DynamicProductList__ErrorMessage {
+  text-align: center;
+  font-weight: 400;
+  font-size: var(--cc-font-size-large);
+  padding: 4rem 2rem;
+  min-width: 265px;
+}

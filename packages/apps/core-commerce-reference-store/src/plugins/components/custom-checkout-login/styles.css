@@ -1,0 +1,66 @@
+.CheckoutLogin {
+  padding: 0 var(--cc-container-padding);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.CheckoutLogin_div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 40px 0px;
+  background-color: white;
+  border-radius: 4px;
+  padding-bottom: 16px;
+}
+
+.CheckoutLogin .Alert {
+  margin-bottom: 1rem;
+}
+
+.CheckoutLogin__Row {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.CheckoutLogin input,
+.CheckoutLogin button,
+.CheckoutLogin a {
+  width: 100%
+}
+
+.CheckoutLogin__EmailField,
+.CheckoutLogin__PasswordField {
+  position: relative;
+}
+
+.CheckoutLogin__EmailIcon, 
+.CheckoutLogin__PasswordIcon {
+  position: absolute;
+  right: .5rem;
+  top: 0.85rem;
+}
+
+.CheckoutLogin__EmailField .Icon,
+.CheckoutLogin__PasswordField .Icon {
+  color: var(--cc-icon-color);
+  height: 1rem;
+}
+
+.CheckoutLogin__ForgotPassword {
+  float: right;
+  margin-bottom: 1rem;
+}
+
+.CheckoutLogin__ForgotPassword a {
+  color: var(--cc-color);
+  text-decoration: underline;
+  font-size: var(--cc-font-size-small);
+}
+
+.CheckoutLogin__CheckoutButton {
+  margin-bottom: 1rem;
+}
+
+.submitBtn {
+  background-color:var(--primarycolor);
+}

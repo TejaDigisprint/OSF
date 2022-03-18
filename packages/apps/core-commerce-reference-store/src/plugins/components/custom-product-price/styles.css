@@ -1,0 +1,68 @@
+.ProductPrice {
+  padding-bottom: .5rem;
+}
+
+.ProductPrice span {
+  /* font-size: var(--cc-font-size-xlarge); */
+  font-weight: bold;
+}
+
+.ProductPrice__SaleWrapper :not(:last-child)  {
+  padding-right: 1rem;
+}
+
+.ProductPrice__Price--Was {
+  text-decoration: line-through;
+  color: var(--cc-invalid-focusring-color);
+  font-size: 18px;
+}
+
+.ProductPrice__Price--Sale{
+  font-size: 18px;
+}
+
+.ProductPrice__Price--empty {
+  white-space: pre;
+}
+
+.ProductPrice .ProductPrice__ListVolumePriceWrapper {
+  font-size: var(--cc-font-size);
+}
+
+.ProductPrice .ProductPrice__ListVolumePriceWrapper--heading {
+  border-bottom: 1px solid var(--cc-border-color);
+  display: flex;
+}
+
+.ProductPrice .ProductPrice__ListVolumePriceWrapper--heading span{
+  font-weight: bold;
+}
+
+.ProductPrice .ProductPrice__ListVolumePriceWrapper--heading .ProductPrice__ListVolumePriceWrapper--quantity {
+  text-align: left;
+}
+
+.ProductPrice__ListVolumePriceWrapper--item {
+  border-bottom: 1px solid var(--cc-border-color);
+  display: flex;
+}
+
+.ProductPrice .ProductPrice__ListVolumePriceWrapper--quantity {
+  text-align: center;
+  flex: 1;
+  font-weight: normal;
+  font-size: var(--cc-font-size);
+  padding: 0.25rem 0;
+}
+.ProductPrice .ProductPrice__ListVolumePriceWrapper--price {
+  text-align: right;
+  flex: 5;
+  font-weight: normal;
+  padding: 0.25rem 0;
+  font-size: var(--cc-font-size);
+}
+
+.CustomProductPrice{
+  padding-top: 15px;
+}
+

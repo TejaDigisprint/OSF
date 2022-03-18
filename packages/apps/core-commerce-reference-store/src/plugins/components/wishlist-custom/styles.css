@@ -1,0 +1,44 @@
+.wishlistcustom {
+  text-align: center;
+  /* margin: 9px; */
+  padding: 9px;
+  cursor: pointer;
+}
+
+.wishlistcustom__Container {
+  text-align: center;
+    /* margin: 7px; */
+    padding: 3px;
+}
+.wishlistcustom__Icon {
+ font-size: 22px;
+}
+.wishlistcustom__text{
+  letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.wishlistcustom__div{
+  position: relative;
+}
+.wishlistcustom__close{
+  position: absolute;
+  z-index: 10;
+  top: 15px;
+  left: 10px;
+}
+.icon{
+  font-size: 24px;
+  color: gold;
+  cursor: pointer;
+}
+/**
+ *  CSS uses the Block Element Modifier naming convention, an example :
+.wishlistcustom__ElementName {
+  display: inline-block;
+  font-size: large;
+}
+ * For more information - http://getbem.com/
+ */

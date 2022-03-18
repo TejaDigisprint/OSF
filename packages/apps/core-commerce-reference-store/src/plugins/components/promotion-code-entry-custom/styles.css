@@ -1,0 +1,67 @@
+.PromotionCodeEntry {
+    margin: var(--cc-container-padding);
+    margin-bottom: 0.75rem;
+}
+.PromotionCodeEntry__LabelContainer {
+    font-size: var(--cc-font-size-small);
+    color: var(--cc-info-message-icon-color);
+    display: inline-block;
+    font-weight: 500;
+}
+.PromotionCodeEntry__Label {
+    font-weight: 600;
+    padding: 0px 5px;
+}
+.PromotionCodeEntry__LabelContainer svg {
+    height: 0.9rem;
+}
+.PromotionCodeEntry__Icon{
+    vertical-align: middle;
+}
+.PromotionCodeEntry__Container {
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--cc-border-color);
+}
+.PromotionCodeEntry__Container__Lable {
+    font-size: var(--cc-font-size);
+    font-weight: 500;
+    padding-bottom: 0.313rem;
+    display: block;
+}
+.PromotionCodeEntry__ErrorMessage {
+    color: var(--cc-validation-error-color);
+    font-size: var(--cc-font-size-xsmall);
+    font-weight: 500;
+}
+.PromotionCodeEntry__ErrorMessage .Icon {
+    height: 1.3rem;
+    padding-top: 0.5rem;
+    color: var(--cc-error-message-icon-color);
+    margin: 0px 5px 10px 0px !important;
+}
+.PromotionCodeEntry__InputContainer {
+    display: flex;
+}
+.PromotionCodeEntry__InputContainer input {
+    flex: 8;
+}
+.PromotionCodeEntry__InputContainer span {
+    width: 0.625rem;
+}
+.PromotionCodeEntry__InputContainer button {
+    flex: 2;
+}
+
+@media only screen and (min-width: 768px) {
+    .PromotionCodeEntry {
+        width: 28.125rem;
+    }
+    .PromotionCodeEntry__Container {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+}
+
+.promoCodeApplyText,.promoIcon{
+    color: var(--primarycolor) !important;
+}

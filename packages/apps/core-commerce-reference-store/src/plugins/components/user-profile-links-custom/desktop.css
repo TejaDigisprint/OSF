@@ -1,0 +1,81 @@
+.UserProfileLinksDesktop > * {
+  --max-popover-width: 18rem;
+}
+.UserProfileLinksDesktop__main{
+  display: flex;
+}
+.UserProfileLinksDesktop {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    padding-top: 0.3rem;
+    margin-top: 0.4rem;
+    text-align: center;
+  }
+  .UserProfileLinksDesktop__Login{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-align: center;
+    /* border-bottom: 0.20em white; */
+    /* text-decoration: underline; */
+    width: 52px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 2px;
+  }
+  /* .UserProfileLinksDesktop__Login:hover{
+    color: #4a90e2;
+    border-bottom: 0.20em white;
+  } */
+.UserProfileLinksDesktop_UserIcon {
+  width: 1.56rem;
+  height: 1.8rem;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.1rem;
+  text-align: center
+}
+
+.UserProfileLinksDesktop_UserIcon:hover {
+  cursor: pointer;
+}
+  
+.UserProfileLinksDesktop .Popover {
+  right: 2rem;
+  top: 5rem;
+  border-radius: 12px;
+  background-color: #fff;
+  font-weight: 700;
+}
+
+
+  
+.UserProfileLinksDesktop .Popover__Wrapper {
+  right: 4.5rem;
+  top: 3.5rem;
+  padding: 1rem;
+  max-width: var(--max-popover-width);
+  white-space: normal;
+  text-align: left;
+ 
+}
+
+.UserProfileLinksDesktop .UserProfileLinks__VerticalDiv {
+  padding: 0;
+}
+
+.UserProfileLinksDesktop .Popover__Close {
+  display: none;
+}
+  
+.UserProfileLinksDesktop__CaretIcon .Icon{
+  padding-top: 0.7rem;
+}
+  
+.UserProfileLinksDesktop__CaretIcon .Icon:hover{
+  cursor: pointer;
+}

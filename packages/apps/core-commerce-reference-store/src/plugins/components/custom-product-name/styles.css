@@ -1,0 +1,8 @@
+.ProductName {
+  margin-top: .5rem;
+  /* font-size: var(--cc-font-size-xlarge); */
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 25px;
+}

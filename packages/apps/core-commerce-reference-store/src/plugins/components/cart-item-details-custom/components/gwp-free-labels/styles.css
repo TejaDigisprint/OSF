@@ -1,0 +1,42 @@
+.FreeGiftMessage, .FreeMessage {
+  display: inline-block;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  vertical-align: text-top;
+  padding-top: 2px;
+}
+
+.FreeGiftMessage {
+  font-size: var(--cc-font-size-small);
+}
+
+.FreeMessage {
+  margin-top: -0.5rem;
+  font-size: var(--cc-font-size-large);
+}
+
+.FreeProductMessage {
+  color: var(--cc-color);
+  font-weight: bold;
+  margin-bottom: unset;
+  padding-bottom: 0.2rem;
+  margin-top: -0.2rem;
+}
+
+.FreeGiftContainer {
+  display: flex;
+}
+
+.FreeMessageContainer{
+  margin-left: auto;
+  text-align: right;
+  color: var(--cc-color);
+}
+
+.FreeGiftIconMessage svg.FreeGiftIconMessage__GiftIcon {
+  height: 1rem;
+}
+
+.FreeGiftIconMessage {
+  color: var(--cc-success-message-icon-color);
+}

@@ -1,0 +1,20 @@
+.QuickViewButton {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  background-color: #000000;
+  opacity: 0.6;
+  border-radius: 0;
+}
+
+.QuickViewButton--hidden {
+  display: none;
+}
+
+/* Override default button hover styling */
+button.QuickViewButton:hover {
+  background-color: #000000;
+  opacity: 1;
+}

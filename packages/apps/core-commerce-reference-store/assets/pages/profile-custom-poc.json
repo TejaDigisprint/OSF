@@ -1,0 +1,51 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "re600643",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "custom-profile-address-book-breadcrumb",
+        "custom-profile-welcome",
+        "Custom-Profile-POC",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "Footer-custom"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Profile-Custom-POC"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "profile",
+  "allowCustomAddress": true,
+  "title": "Profile-Custom-POC",
+  "shortName": "profile",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "profile"
+    }
+  },
+  "secured": true
+}

@@ -1,0 +1,88 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot-custom",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "image-banners-1"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "custom-promo-homebanner"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "home_banner2"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "promotions-display_custom"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "custom-category-listing-carousel-1"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "custom-category-listing-carousel-2"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "back-to-top-custom"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "Footer-custom"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Home Page"
+      }
+    }
+  },
+  "defaultPage": false,
+  "address": "home",
+  "title": "POC Home Page custom",
+  "shortName": "home",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "home"
+    }
+  }
+}

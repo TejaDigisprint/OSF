@@ -1,0 +1,48 @@
+.HeaderContainerDesktop__Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  /* color: var(--cc-root-header-color); */
+  white-space: nowrap;
+  /* background-color: var(--cc-root-header-background-color); */
+  justify-content: center;
+  align-items: center !important;
+  padding: 10px 0px;
+  color: #fff;
+  font-size: 13px;
+  font-family: var(--fontfamily);
+  background-color:var(--primarycolor);
+}
+
+.HeaderContainerDesktop__Section > *:first-child {
+  justify-content: flex-start;
+}
+
+.HeaderContainerDesktop__Section > *:only-child {
+  justify-content: center;
+}
+
+.HeaderContainerDesktop__Section > *:not(:first-child):not(:last-child):not(:nth-last-child(2)) {
+  /* justify-content: center; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.HeaderContainerDesktop__Section > *:nth-last-child(2) {
+  justify-content: flex-end;
+}
+
+.HeaderContainerDesktop__Section > * {
+  display: inline-flex;
+}
+
+/* error icon in header should not be 100% */
+.HeaderContainerDesktop__Section .Img__Wrapper .Img__MissingImgIcon {
+  width: 24px;
+}
+.HeaderContainerDesktop__Section .Image {
+  margin-left:0rem;
+}
+
+

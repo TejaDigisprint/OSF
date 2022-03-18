@@ -1,0 +1,8 @@
+.ShippingAddressDetails__ShippingMethodIcon {
+  display: none;
+  margin: 0.2rem 1rem auto 0;
+}
+.ShippingAddressDetails__ShippingMethodIcon .Icon {
+  height: 3rem;
+  color: var(--cc-icon-color);
+}

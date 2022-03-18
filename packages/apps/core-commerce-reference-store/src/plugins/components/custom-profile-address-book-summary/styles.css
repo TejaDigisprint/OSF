@@ -1,0 +1,131 @@
+.ProfileAddressBookSummary {
+  padding: 0 var(--cc-container-padding);
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.ProfileAddressBookSummary_div {
+  padding-top: 5px;
+  margin-left: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09);
+}
+
+.ProfileAddressBookSummary_div:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ProfileAddressBookSummary__DefaultAddressContent .Card {
+  margin: 0 0 1.25rem;
+  border: 1px solid transparent;
+  border-top: 1px solid #cdd2d6;
+  border-top: 1px solid var(--cc-border-color);
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.ProfileAddressBookSummary__NoAddressContent .Card {
+  margin: 0 0 1.25rem;
+  border: 1px solid transparent;
+  border-top: 1px solid #cdd2d6;
+  border-top: 1px solid var(--cc-border-color);
+  border-radius: 0;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProfileAddressBookSummary__NoAddressContent svg {
+  margin-right: 0.7rem;
+  height: 1.5rem;
+  width: 3rem;
+}
+
+.ProfileAddressBookSummary__NoAddressContent span {
+  vertical-align: super;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 1rem;
+}
+.ProfileAddressBookSummary__AddAnAddressLinkContainer {
+  color: var(--cc-info-message-icon-color);
+  margin: 1rem 0 0 0;
+}
+
+.ProfileAddressBookSummary__DefaultAddress {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+ }
+
+.ProfileAddressBookSummary__DefaultAddressContent .DefaulBadge__Text {
+  margin-top: 0.5rem;
+}
+
+.ProfileAddressBookSummary__HomeIcon {
+  display: flex;
+  margin: 0.2rem 10px auto 0;
+  max-width: 7em;
+  color: var(--cc-icon-color);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ProfileAddressBookSummary__HomeIcon svg {
+  height: 3rem;
+}
+
+.ProfileAddressBookSummary__RightContent {
+  text-align: right;
+  text-decoration: underline;
+  flex: 0 0 25%;
+  max-width: 25%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ProfileAddressBookSummary__RightContent a {
+  color: var(--cc-color);
+}
+
+/* .ProfileAddressBookSummary__DefaultAddressContent .Card:hover {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+}
+
+.ProfileAddressBookSummary__NoAddressContent .Card:hover {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+} */
+
+@media only screen and (max-width: 768px) {
+  .ProfileAddressBookSummary__DefaultAddressContent .Card {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+
+  .ProfileAddressBookSummary__NoAddressContent .Card {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+
+  .ProfileAddressBookSummary_div {
+    padding-top: 0px;
+    margin-left: 0px;
+    box-shadow: none;
+  }
+
+}

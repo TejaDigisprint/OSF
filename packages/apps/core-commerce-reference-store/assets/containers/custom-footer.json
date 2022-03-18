@@ -1,0 +1,15 @@
+{
+  "layout": [
+    {
+      "components": [
+        "footer-static-link",
+        "links-list-custom",
+        "web-content-copy-right-custom"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "component": "FooterContainer",
+  "title": "Footer"
+}

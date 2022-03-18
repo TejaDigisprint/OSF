@@ -1,0 +1,111 @@
+.ProfileRegistration input,
+.ProfileRegistration button,
+.ProfileRegistration a {
+  width: 100%;
+}  
+
+.ProfileRegistration {
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--cc-font-size);
+}
+
+.ProfileRegistration_div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 40px 0px;
+  background-color:white;
+  border-radius: 4px;
+}
+
+.submitBtn {
+  background-color:var(--primarycolor)
+}
+
+.ProfileRegistration > form > div {
+  margin-bottom: 1em;
+}
+
+.ProfileRegistration__UserPreferences,
+.ProfileRegistration .RadioGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.ProfileRegistration__UserPreferences > input,
+.ProfileRegistration .RadioGroup > input {
+  flex-basis: 1rem;
+  margin-right: .5rem;
+}
+
+.ProfileRegistration__UserPreferences > label,
+.ProfileRegistration .DynamicProperty__CheckBox > label {
+  width: 95%;
+}
+
+.DynamicProperty__CheckBox {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+}
+
+.DynamicProperty__CheckBox input,
+.DynamicProperty__CheckBox label {
+  margin-right: 1rem;
+}
+
+.ProfileRegistration__EmailIcon,
+.ProfileRegistration__PasswordIcon {
+  position: absolute;
+  right: .5em;
+  top: 0.85em;
+}
+
+.ProfileRegistration__EmailField .Icon,
+.ProfileRegistration__PasswordField .Icon,
+.ProfileRegistration__ConfirmPasswordField .Icon {
+  height: 1rem;
+}
+
+.ProfileRegistration__PasswordIcon {
+  top : 0.14em;
+}
+
+.ProfileRegistration__EmailField,
+.ProfileRegistration__PasswordField,
+.ProfileRegistration__ConfirmPasswordField {
+  position: relative;
+}
+
+.ProfileRegistration__LinkToLogin {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+  color: var(--cc-secondary-button-color);
+  background: var(--cc-secondary-button-background-color);
+  background-image: -webkit-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: -moz-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: -ms-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: -o-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: linear-gradient(to bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  box-shadow: var(--cc-secondary-button-box-shadow);
+  border: 1px solid transparent;
+  border-radius: var(--cc-border-radius);
+  padding: 0.5em 1em;
+  text-transform: unset;
+  font-weight: 600;
+}
+
+.ProfileRegistration__LinkToLogin:hover, .ProfileRegistration__LinkToLogin:focus {
+  color: var(--cc-secondary-button-color);
+  background: var(--cc-secondary-button-background-color);
+  background-image: -webkit-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  background-image: -moz-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  background-image: -ms-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  background-image: -o-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  background-image: linear-gradient(to bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  text-decoration: none;
+  box-shadow: var(--cc-secondary-button-box-shadow);
+}

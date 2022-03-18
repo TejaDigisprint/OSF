@@ -1,0 +1,83 @@
+.saveforlaterview {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.saveforlaterview__Label {
+  color: #729fff;
+}
+.saveforlaterview__ExtraInfo {
+  background-color: red;
+  color: yellow;
+  margin-left: 5px;
+}
+.saveforlaterfcontainer{
+  display: flex;
+
+}
+.saveforlaterfcontainer a:hover{
+     color: #2874F0;
+     font-weight: 500;
+     text-decoration: none;
+  
+}
+.movetocartLink{
+  color: black;
+   margin-right: 20px;
+  
+}
+.itemPrice{
+   margin-right: 10px;
+}
+.removeLInk{
+  color: black;
+ 
+}
+.saveItems{
+  margin-left: 50px;
+}
+.commerceItemActualprice{
+  margin-top: 2px;
+  font-size: 13px;
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+.commerceItemDiscountprice{
+  display: inline-block;
+  font-weight: 500;
+  background-color: #bb0628;
+  color: #fff;
+  height: auto;
+  font-size: 13px;
+  width: auto;
+  margin: 0 5px;
+}
+.saveItemImage{
+
+  width: 140px;
+
+  margin-right: 36px;
+
+  height: 100px;
+
+}
+
+.saveforlaterfcontainer a:hover {
+
+  cursor: pointer;
+
+}
+
+
+
+.saveforlaterfcontainer a{
+
+  font-size: large;
+
+  color: black !important;
+
+  font-weight: 400;
+
+}
+
+

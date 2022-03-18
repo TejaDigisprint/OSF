@@ -1,0 +1,15 @@
+.HomeDeliveryAddressInformation__Address {
+  padding-bottom: 1rem;
+  flex: 0 0 calc(100% * (12 / 12));
+  max-width: calc(100% * (12 / 12));
+  word-wrap: break-word;
+}
+.HomeDeliveryAddressInformation__AddressDetails > span{
+  padding-right: 0.33rem;
+}
+.HomeDeliveryAddressInformation__Heading {
+  font-weight: bold;
+}
+.HomeDeliveryAddressInformation__AddressSummary {
+  padding-top: 0.33rem;
+}

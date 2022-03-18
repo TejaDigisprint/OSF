@@ -1,0 +1,51 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "re600675",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "working-in-progress"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "Footer-custom"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Locate a Store"
+      }
+    },
+    "pageTitle": {
+      "en": {
+        "pageTitle": "Locate a Store"
+      }
+    }
+  },
+  "address": "locateastore",
+  "allowCustomAddress": true,
+  "title": "Locate a Store",
+  "shortName": "article",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "article"
+    }
+  }
+}

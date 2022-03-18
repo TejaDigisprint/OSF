@@ -1,0 +1,5 @@
+.CartItemsTableHeader {
+  display: flex;
+  border-bottom: 1px solid var(--cc-border-color);
+  padding-bottom: 0.325rem;
+}

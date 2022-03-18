@@ -1,0 +1,31 @@
+.LinksList_custom {
+  line-height: 2;
+  display: flex;
+  align-items: center;
+}
+
+.LinksList__HorizontalDisplay {
+  display: flex;
+  flex-wrap: wrap;
+}
+.links_list_ul_custom{
+  display: flex !important;
+}
+
+.LinksList__HorizontalDisplay li:not(:last-child) {
+  padding-right: 1rem;
+}
+
+.LinksList_custom .links_list_ul_custom{
+  margin: 20px;
+}
+
+.link_color{
+  color: var(--primarycolor);
+  font-size: 11px !important;
+}
+
+.links_list_custom_id{
+  display: flex;
+  align-items: center;
+}

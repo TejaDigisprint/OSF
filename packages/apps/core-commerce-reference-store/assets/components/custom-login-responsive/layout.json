@@ -1,0 +1,11 @@
+{
+  "regions": [
+    {
+      "components": [
+        "custom-login"
+      ],
+      "width": 4,
+      "type": "main"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+.CheckoutShippingContainer {
+  width: 100%;
+  margin-bottom: 2rem;
+  background: #f0f2f4 ;
+}
+
+.shippingHeading{
+  color: black;
+  margin-left: 15px;
+}
+
+.CheckoutShippingContainer__Heading {
+  padding: 16px var(--cc-container-padding);
+  text-transform: uppercase;
+}
+.CheckoutShippingContainer__Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+  justify-content: center;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .CheckoutShippingContainer__Section > section{
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

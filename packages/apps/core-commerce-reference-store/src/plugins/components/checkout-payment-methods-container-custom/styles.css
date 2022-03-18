@@ -1,0 +1,30 @@
+.CheckoutPaymentMethodsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 17px
+}
+
+/* set border radius for each dom element containing .CheckoutPaymentsGroup  */
+.CheckoutPaymentMethodsContainer *> .CheckoutPaymentsGroup {
+  border-radius: var(--cc-border-radius) var(--cc-border-radius) 0px 0px;
+  overflow: auto;
+}
+
+.CheckoutPaymentMethodsContainer *> .CheckoutPaymentsGroup.BottomBorderStyle {
+  border-bottom-left-radius: var(--cc-border-radius);
+  border-bottom-right-radius: var(--cc-border-radius);
+}
+
+
+.CheckoutPaymentMethodsContainer *> .CheckoutPaymentsGroup ~ .CheckoutPaymentsGroup {
+  /* remove top border for each dom elemnet (except first) containing .CheckoutPaymentsGroup */
+  border-top: 0;
+  /* reset border radius for each dom element (except first) containing .CheckoutPaymentsGroup  */
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.CheckoutPaymentMethodsContainer .Radio label {
+  margin-left: 0;
+}

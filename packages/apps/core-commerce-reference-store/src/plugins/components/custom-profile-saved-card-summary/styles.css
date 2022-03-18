@@ -1,0 +1,133 @@
+.ProfileSavedCardSummary {
+  padding: 0 var(--cc-container-padding);
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.ProfileSavedCardSummary_div {
+  padding-top: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09);
+}
+
+.ProfileSavedCardSummary_div:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ProfileSavedCardSummary__DefaultCardContent .Card {
+  margin: 0 0 1.25rem;
+  border: 1px solid transparent;
+  border-top: 1px solid var(--cc-border-color);
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.ProfileSavedCardSummary__NoCardContent .Card {
+  margin: 0 0 1.25rem;
+  border: 1px solid transparent;
+  border-top: 1px solid var(--cc-border-color);
+  border-radius: 0;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProfileSavedCardSummary__NoCardContent svg {
+  margin-right: 0.7rem;
+}
+
+.ProfileSavedCardSummary__NoCardContent span {
+  vertical-align: super;
+  text-decoration: none;
+  display: inline-block;
+}
+.ProfileSavedCardSummary__AddACardLinkContainer {
+  color: var(--cc-info-message-icon-color);
+  margin: 1rem 0 0 0;
+}
+
+.ProfileSavedCardSummary__CardIconContainer {
+  display: flex;
+  margin: 0.2rem 10px auto 0;
+  max-width: 7em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ProfileSavedCardSummary__CardIcon {
+  border: 0.8px solid var(--cc-border-color);
+  width: 3.5em;
+  border-radius: var(--cc-border-radius);
+}
+
+.ProfileSavedCardSummary__CardDetailsContainer {
+ display: flex;
+ flex-direction: column;
+ flex: 1;
+}
+
+.ProfileSavedCardSummary__CardText {
+  margin-bottom: 0.2rem;
+}
+
+.ProfileSavedCardSummary__DefaultBadge {
+  margin-top: 0.2rem;
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+}
+
+.ProfileSavedCardSummary__ManageLinkContainer {
+  text-align: right;
+  text-decoration: underline;
+  flex: 0 0 25%;
+  max-width: 25%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ProfileSavedCardSummary__ManageLinkContainer a {
+  color: var(--cc-color);
+}
+
+/* .ProfileSavedCardSummary__DefaultCardContent .Card:hover {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+}
+
+.ProfileSavedCardSummary__NoCardContent .Card:hover {
+  border: 1px solid var(--cc-border-color);
+  border-radius: var(--cc-border-radius);
+} */
+
+@media only screen and (max-width: 768px) {
+  .ProfileSavedCardSummary__DefaultCardContent .Card {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ProfileSavedCardSummary__NoCardContent .Card {
+    border: 1px solid var(--cc-border-color);
+    border-radius: var(--cc-border-radius);
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+
+  .ProfileSavedCardSummary_div {
+    padding-top: 0px;
+    box-shadow: none;
+  }
+}

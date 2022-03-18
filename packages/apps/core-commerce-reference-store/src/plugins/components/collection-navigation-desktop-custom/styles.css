@@ -1,0 +1,85 @@
+.CollectionNavigationDesktop {
+  color: #4a4a4a;
+  color: var(--cc-color);
+  width: 100%;
+  margin-bottom: -1.5rem;
+  margin-top: 2px;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  box-shadow: var(--boxshadowasTransparentGlass) !important;;
+  text-transform: uppercase;
+  padding: 16px 0px 0px 0px !important;
+  }
+  .CollectionNavigationDesktop__DropDownLinks > * {
+    
+    white-space: normal;
+    max-width: 30%;
+    min-width: fit-content;
+}
+
+.CollectionNavigationDesktop a {
+  /* color: var(--cc-color); */
+  text-decoration: none;
+  color: var(--blackcolor);
+}
+
+.CollectionNavigationDesktop a:hover, .CollectionNavigationDesktop a:focus {
+  /* border-bottom: var(--cc-a-color)  0.20em solid; */
+  border-bottom: 0.20em solid var(--blackcolor);
+color: var(--blackcolor) !important ;
+}
+
+.CollectionNavigationDesktop__MenuItems{
+  line-height: 28px;
+}
+
+.CollectionNavigationDesktop__MenuItem > ul > li {
+  margin-bottom: 0.25rem;
+}
+
+.CollectionNavigationDesktop__DropDownMenu {
+  
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  box-shadow: var(--boxshadowwithlightinset);
+  /* background-color: var(--cc-background-color); */
+  background-color: var(--whitecolor);
+  width: 100%;
+  padding: 1rem 5%;
+  font-size: var(--cc-font-size-small);
+  align-items: stretch;
+  justify-content: space-between;
+  transition: visibility 0.2s,opacity .2s var(--cc-transition);
+  transition-delay: .2s;
+}
+
+.CollectionNavigationDesktop__MenuItems ul li a{
+
+  color: var(--lightblackcolor) !important;
+  
+  }
+  
+  .CollectionNavigationDesktop__MenuItems ul li a:hover,.CollectionNavigationDesktop__MenuItems ul li a:focus{
+  color:var(--lightblackcolor) !important; 
+  border-bottom:0.20em solid var(--lightblackcolor) !important;
+  }
+  
+  .CollectionNavigationDesktop__MenuItem > ul > li a{
+
+    color: var(--lightblackcolor);
+    
+    }
+    
+    .CollectionNavigationDesktop__MenuItem > ul > li a:hover,.CollectionNavigationDesktop__MenuItem > ul > li a:active{
+    
+    color: var(--lightblackcolor);
+    
+    }
+    .hide{
+      display: none;
+      transition: all 0.5 ease-in-out; 
+      }

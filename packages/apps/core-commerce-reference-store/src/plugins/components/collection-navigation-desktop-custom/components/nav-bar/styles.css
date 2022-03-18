@@ -1,0 +1,54 @@
+.CollectionNavigationDesktop__NavBar {
+  display: flex;
+  margin-top:10px;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: var(--aliceblue);
+  padding-top: 10px; 
+}
+
+.CollectionNavigationDesktop__Backdrop {
+  background-color: var(--cc-modal-backdrop);
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s var(--cc-transition);
+  transition-delay: .2s;
+  position: fixed;
+  top: auto;
+  left: 0;
+  right: 0;
+  z-index: -2;
+  visibility: hidden;
+}
+
+.CollectionNavigationDesktop__NavItem {
+  display: block;
+  flex: 1;
+}
+
+.CollectionNavigationDesktop__NavItem:hover > .CollectionNavigationDesktop__DropDownMenu,
+.CollectionNavigationDesktop__NavItem:focus-within > .CollectionNavigationDesktop__DropDownMenu {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -5px;
+}
+
+.CollectionNavigationDesktop__NavItem:hover ~ .CollectionNavigationDesktop__Backdrop,
+.CollectionNavigationDesktop__NavItem:focus-within ~ .CollectionNavigationDesktop__Backdrop 
+{
+  visibility: visible;
+  opacity: 1;
+}
+
+.CollectionNavigationDesktop__NavLink {
+  padding: 0 0 7px 0;
+  margin-left: 35px;
+}
+
+.CollectionNavigationDesktop__NavLink > a {
+  padding: .8rem .625rem; 
+}

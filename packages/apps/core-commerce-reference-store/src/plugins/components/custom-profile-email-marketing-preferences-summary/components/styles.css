@@ -1,0 +1,11 @@
+.ProfilePreferencesList {
+  margin: 0.25rem 0 0.25rem 0.8rem;
+  flex: 1;
+  align-self: center;
+}
+
+.ProfilePreferencesList ul{
+  list-style: disc;
+  margin: 0;
+  margin-left: 1.8rem;
+}

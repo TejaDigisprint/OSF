@@ -1,0 +1,55 @@
+.MiniCartDesktop {
+  position: relative;
+  margin-bottom: 3px;
+  margin-right: 20px;
+}
+
+.MiniCartDesktop a {
+  text-decoration: none;
+  /* margin-top: 0.7rem; */
+}
+
+.MiniCartDesktop > span {
+  color: var(--cc-button-color);
+  background: var(--primarycolor);
+  border-radius: 50%;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-size: var(--cc-font-size-small);
+  justify-content: center;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* margin-top: var(--cc-container-padding); */
+}
+
+.MiniCartDesktop .Popover {
+  right: 1.5rem;
+  top: 4rem !important;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.MiniCartDesktop__Cart {
+  margin: 0px;
+  position: relative;
+  font-size: 13px;
+  bottom: 7.5px;
+  left: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+/* .MiniCartDesktop__Cart:hover{
+  color:#4a90e2 ;
+  border-bottom: 0.2em solid #4a90e2;
+} */
+:root {
+  --mini-cart-item-height: 7.5rem;
+  --mini-cart-items-before-scrolling: 24rem;
+}

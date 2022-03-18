@@ -1,0 +1,25 @@
+{
+  "layout": [
+    {
+      "components": [
+        "menu-mobile"
+      ],
+      "width": 3
+    },
+    {
+      "components": [
+        "logo"
+      ],
+      "width": 6
+    },
+    {
+      "components": [
+        "search-box-mobile",
+        "mini-cart-mobile"
+      ],
+      "width": 3
+    }
+  ],
+  "component": "HeaderContainerMobile",
+  "title": "HeaderMobile"
+}

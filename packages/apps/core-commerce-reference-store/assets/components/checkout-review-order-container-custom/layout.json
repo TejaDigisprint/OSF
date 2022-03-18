@@ -1,0 +1,21 @@
+{
+  "regions": [
+    {
+      "components": [
+        "checkout-customer-email",
+        "review-order-shipping-information-custom",
+        "review-order-payment-information-custom"
+      ],
+      "width": 9,
+      "type": "main"
+    },
+    {
+      "components": [
+        "cart-review-order-summary-custom",
+        "checkout-place-order-button"
+      ],
+      "width": 3,
+      "type": "main"
+    }
+  ]
+}

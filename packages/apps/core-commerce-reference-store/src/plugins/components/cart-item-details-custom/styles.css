@@ -1,0 +1,70 @@
+.CartItemDetails{
+  line-height: 1.2;
+  margin: var(--cc-container-padding);
+  background-color: white;
+  padding: 40px;
+}
+.CartItemDetails__ContiueShopping {
+  color: var(--cc-secondary-button-color);
+  background: var(--cc-secondary-button-background-color);
+  background-image: -webkit-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: -moz-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: -ms-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: -o-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  background-image: linear-gradient(to bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-color));
+  box-shadow: var(--cc-secondary-button-box-shadow);
+  border: 1px solid transparent;
+  padding: 0.5em 1em;
+  font-weight: 500;
+  width: 100%;
+  margin: 1.75em 0 2.5em 0;
+  text-align: center;
+  border-radius: var(--cc-border-radius);
+  display: block;
+  text-decoration: none;
+}
+.CartItemDetails__ContiueShopping:hover, .CartItemDetails__ContiueShopping:focus {
+  color: var(--cc-secondary-button-color);
+  text-decoration: none;
+  background: var(--cc-secondary-button-background-color);
+  background-image: -webkit-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  background-image: -moz-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  background-image: -ms-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  background-image: -o-linear-gradient(bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  background-image: linear-gradient(to bottom, var(--cc-secondary-button-background-color), var(--cc-secondary-button-background-gradient-hover-color));
+  box-shadow: var(--cc-secondary-button-box-shadow);
+}
+.CartItemRow {
+  border-bottom: 1px solid var(--cc-border-color);
+  padding: 0.9375rem 0;
+}
+.CartItemDetails__EmptyMessage {
+  text-align: center;
+  margin: 2rem;
+}
+.continue_shopping_button:hover,.continue_shopping_button:active{
+  color: white !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .CartItemDetails__EmptyMessage {
+    text-align: left;
+    margin: 2rem 0;
+  }
+  .CartItemDetails__ContiueShopping {
+    width: max-content;
+    margin: 0;
+  }
+  .CartItemRow {
+    padding: 0.75rem 0;
+  }
+}
+
+.continue_shopping_button{
+  background-color: var(--primarycolor) !important;
+  color: white;
+}
+
+.cardview{
+  background-color: white;
+}

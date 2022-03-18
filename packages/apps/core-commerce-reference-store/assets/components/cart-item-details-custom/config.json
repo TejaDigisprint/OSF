@@ -1,0 +1,4 @@
+{
+  "showProductPropertiesInCart": "['Colour','Name','size']",
+  "showAddToPurchaseList": false
+}

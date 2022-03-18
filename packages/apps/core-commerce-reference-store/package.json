@@ -1,0 +1,40 @@
+{
+  "name": "@oracle-cx-commerce/core-commerce-reference-store",
+  "version": "3.0.0",
+  "private": false,
+  "description": "Oracle CX Commerce Core Commerce Reference Storefront Application",
+  "scripts": {
+    "esbuild": "node .occ/build.js"
+  },
+  "dependencies": {
+    "@oracle-cx-commerce/actions": "3.0.0",
+    "@oracle-cx-commerce/commerce-utils": "3.0.0",
+    "@oracle-cx-commerce/endpoints": "3.0.0",
+    "@oracle-cx-commerce/occ-metadata": "3.0.0",
+    "@oracle-cx-commerce/oce-endpoints": "3.0.0",
+    "@oracle-cx-commerce/react-app": "3.0.0",
+    "@oracle-cx-commerce/react-widgets": "3.0.0",
+    "@oracle-cx-commerce/subscribers": "3.0.0",
+    "lodash": "^4.17.21",
+    "react-google-maps": "^9.4.5",
+    "react-slick": "^0.28.1"
+  },
+  "devDependencies": {
+    "@oracle-cx-commerce/rollup-config": "3.0.0"
+  },
+  "occ": {
+    "namespace": "occ.react",
+    "plugins": {
+      "actions": "src/plugins/actions",
+      "components": "src/plugins/components",
+      "endpoints": "src/plugins/endpoints",
+      "subscribers": "src/plugins/subscribers"
+    },
+    "locales": [
+      "en"
+    ],
+    "aliases": {
+      "@oracle-cx-commerce/styles/common.css": "@oracle-cx-commerce/core-commerce-reference-store/src/core/ui/styles/common.css"
+    }
+  }
+}

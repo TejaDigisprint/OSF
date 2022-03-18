@@ -1,0 +1,128 @@
+
+.CountryStoreLanguageCurrencyPicker {
+    width:100%;
+  }
+  
+.CountryStoreLanguageCurrencyPicker__SubmitButtonDiv {
+    margin-top: 1.5rem;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__InputElement label {
+    margin-top: 1.0rem;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__InputElementIconDiv  {
+    text-align: right;
+    margin-top: 0.5rem;
+    position: absolute;
+    right: 1.4rem;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__InputElementDiv select {
+    display:block;
+    box-sizing: border-box;
+    padding-right: 1.8rem;
+    background-color: var(--cc-background-color);
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__SelectedFlagIcon {
+    background-repeat: no-repeat;
+    display: flex;
+    margin-left: 0.5rem;
+    width: 1.8rem;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__FlagIconListItem{
+    background-repeat: no-repeat;
+    display: flex;
+    margin-left: 0.5rem;
+    z-index: 100;
+    width: 1.8rem;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker input, .CountryStoreLanguageCurrencyPicker button, .CountryStoreLanguageCurrencyPicker select {
+    width : 100%;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__IconBasicStyle {
+    padding-top: 0.1rem;
+    vertical-align: text-top;
+    width: 0.5rem;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__InputElement {
+    margin-bottom: 1.0rem;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__LinkItem {
+    background-color: transparent;
+    color: var(--cc-color);
+    width:100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0.3rem;
+    padding-right: 0.4rem;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__LinkItem_IconAndLabel{
+    float: left;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__LinkItem_DisplayName{
+    text-align: right;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__LinkItem_DisplayName span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__ModalTitle{
+    width: 90%;
+    display: inline-block;
+  }
+  .CountryStoreLanguageCurrencyPicker__ModalTitle h2{
+    margin: 0rem;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__Title {
+    background-color: var(--cc-title-background-color);
+    line-height: 1.2rem;
+    padding-left: 1.0rem;
+    display: flex;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__FlagIcon{
+    position: absolute;
+    margin-top: 0.6rem;
+    padding-left: 0.6rem;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__SiteSelectorWithIcon {
+    color: var(--cc-icon-color-hover);
+    background-position-x: 0.5rem;
+    background-position-y: 50%;
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-left: 0.5rem;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__CustomSiteSelector:focus {
+    border: 2px solid var(--cc-focusring-color);
+    outline: none;
+    border-radius: 4px;
+  }
+  
+  .CountryStoreLanguageCurrencyPicker__Display {
+    margin-bottom: 1.0rem;
+  }
+  .CountryStoreLanguageCurrencyPicker__Display label{
+    margin-top: 1.0rem;
+  }

@@ -1,0 +1,112 @@
+.OrderItem {
+  border-bottom: 1px solid var(--cc-border-color);
+  padding: 0.9375rem 0;
+}
+.OrderItem:last-child {
+  border-bottom: none;
+}
+.OrderItemImage {
+  cursor: pointer;
+}
+.OrderItem a:not([href]):not([tabindex]) {
+  pointer-events: none;
+}
+.OrderItem.OrderItem__Disable{
+  opacity: 0.5;
+  pointer-events: none;
+}
+@media only screen and (min-width: 768px) {
+  .OrderItem__MobileVisible {
+    display: none;
+  }
+  .OrderItem__DesktopVisibleContainer {
+    width: 45%;
+    display: flex;
+  }
+  .OrderItem__DesktopVisibleContainer .CommerceItemPrice{
+    width: 27%;
+  }
+  .OrderItem__QuantityTotalContainer {
+    display: flex;
+    width: 73%;
+  }
+  .OrderItem__QuantityTotalContainer .CommerceItemQtyContainer {
+    width: 36%;
+  }
+  .OrderItem__QuantityTotalContainer .CommerceItemTotalPrice {
+    width: 64%;
+    text-align: right;
+  }  
+  .OrderItem__ItemDetails {
+    display: flex;
+    flex-direction: row;
+  }
+  .OrderItem .CommerceItemQtyContainer {
+    text-align: right;
+    font-weight: bold;
+  }
+  .OrderItem .OrderItemImage {
+    width: 6rem;
+    flex: unset;
+  }
+  .OrderItem__ItemBasicDetails {
+    flex: 1;
+    padding: 0rem 1.0rem;
+  }
+  .OrderItem .CommerceItemPrice,
+  .OrderItem .CommerceItemQtyContainer {
+    font-size: var(--cc-font-size-large);
+  }
+  .CartItemPromotion, .CartItemSurcharge {
+    margin: 0.325rem 0;
+  }
+  }
+@media only screen and (max-width: 768px) {
+  .OrderItem__DesktopVisibleContainer {
+    display: none;
+  } 
+  .OrderItem .CommerceItemName {
+    font-weight: bold;
+    font-size: var(--cc-font-size-small);
+    line-height: 1.0;
+  }
+  .OrderItem .CommerceItemPrice {
+    font-size: var(--cc-font-size-small);
+    font-weight: normal;
+    text-align: left;
+    margin: 0.313rem 0;
+    line-height: 1.2;
+  }
+  .OrderItem .OrderItemImage {
+    width: 5rem;
+    flex: unset;
+  }
+  .OrderItem .CommerceItemQty {
+    font-size: var(--cc-font-size-small);
+    text-align: center;
+    font-weight: normal;
+  }
+  .OrderItem__ItemDetails {
+    display: flex;
+    flex-direction: row;
+  }
+  .OrderItem .OrderItemQuantity__Label {
+    text-align: right;
+    font-weight: bold;
+    font-size: var(--cc-font-size-small);
+  }
+  .OrderItem__ItemBasicDetails {
+    padding: 0rem 1.0rem;
+    flex: 3 2;
+  }
+  .OrderItem .CommerceItemTotalPrice {
+    font-size: var(--cc-font-size-large);
+    text-align: left;
+  }
+  .OrderItem .FreeMessageContainer {
+    text-align: left;
+  }
+  .OrderItem .FreeMessage {
+    padding-left: 0;
+  }
+}

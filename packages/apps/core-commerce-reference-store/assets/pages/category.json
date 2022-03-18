@@ -1,0 +1,51 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "header-with-notification-device-slot",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "dynamic-product-listing-device-slot",
+      "type": "main",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Collection Layout"
+      }
+    }
+  },
+  "defaultPage": false,
+  "address": "category",
+  "title": "Collection Layout",
+  "shortName": "category",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "category"
+    }
+  }
+}

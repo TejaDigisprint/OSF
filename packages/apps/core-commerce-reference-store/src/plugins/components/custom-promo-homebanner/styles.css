@@ -1,0 +1,46 @@
+.Image {
+  display: block;
+  margin: auto;
+}
+
+.Image_RowDirection {
+  flex-direction: row;
+}
+
+.Image_ColumnDirection {
+  flex-direction: column;
+}
+
+.Image_Link {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.Image_ImgContainer {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.Promo_banner {
+  width: 600px;
+  height: 500px;
+}
+
+.Promo_banner img {
+  width: 100% !important;
+  height:100% !important;
+}
+.Image_Img {
+  order: 1; 
+}
+
+.Image_FigCaption {
+  text-align: center;
+  font-size: var(--cc-font-size-large);
+  color: var(--cc-color);
+  padding: 0.5rem;
+}

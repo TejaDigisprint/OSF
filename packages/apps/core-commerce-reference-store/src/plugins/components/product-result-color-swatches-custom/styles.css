@@ -1,0 +1,42 @@
+.ProductResultColorSwatches {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.ProductResultColorSwatches__Swatch {
+  display: block;
+  margin: .25rem;
+  border: 1px solid var(--cc-button-color);
+}
+
+.ProductResultColorSwatches__Swatch--Unselected {
+  box-shadow: 0 0 0 .1em var(--cc-border-color);
+}
+
+.ProductResultColorSwatches__Swatch--Selected {
+  box-shadow: 0 0 0 .1em var(--cc-button-background-color);
+}
+
+.ProductResultColorSwatches__Swatch--Circular {
+  border-radius: 50%;
+}
+
+.ProductResultColorSwatches__Swatch--Rectangular {
+  border-radius: 0%;
+}
+
+.ProductResultColorSwatches__NumberOfColors,
+.ProductResultColorSwatches__NumberOfColors:active,
+.ProductResultColorSwatches__NumberOfColors:hover {
+  font-size: var(--cc-font-size-small);
+  color: var(--cc-color);
+}
+
+.ProductResultColorSwatches__MoreColorsLink {
+  font-size: var(--cc-font-size-small);
+  color: var(--cc-color);
+  margin-left: 3px;
+}

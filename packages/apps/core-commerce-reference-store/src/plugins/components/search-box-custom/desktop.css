@@ -1,0 +1,45 @@
+.SearchBoxDesktop {
+  width: 100%;
+}
+
+.SearchBoxDesktop .TypeaheadResults {
+  width: 45%; 
+  position: absolute;
+  box-shadow: 0.5px 0.5px 1px 1px;
+}
+
+.SearchBoxDesktop .TypeaheadResultItem p {
+  padding-left: 1rem;
+}
+
+.SearchBoxDesktop form {
+  border: 0.5px solid #D3D3D3;
+  border-radius: 5px;
+  height: 43px;
+}
+
+.SearchBoxDesktop__SearchIcon button {
+  background-color: var(--cc-secondary-button-background-gradient-color);
+  color: var(--cc-root-header-color);
+  height: 42px;
+  float: right;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.SearchBoxDesktop__SearchIcon button:not(:disabled):hover,
+.SearchBoxDesktop__SearchIcon button:not(:disabled):active {
+  background-color: var(--cc-secondary-button-background-gradient-hover-color);
+}
+.SearchBoxCommon__Buttons {
+  display: flex;
+  padding: .15rem 0;
+  /* border: 4px solid #4a90e2;
+   */
+  /* border: 0.5px solid #D3D3D3; */
+  border-radius: 12px;
+  /* outline: none;
+  overflow: hidden; */
+}
+ .SearchBoxCommon__Buttons:focus{
+  border: 4px solid #0d131a;
+}

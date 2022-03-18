@@ -1,0 +1,34 @@
+.CheckoutPaymentsContainer__Header {
+  height: 2.5em;
+  padding-left: var(--cc-container-padding);
+  text-transform: uppercase;
+}
+
+.CheckoutPaymentsContainer__AlertMessage {
+  padding: var(--cc-container-padding);
+}
+
+.CheckoutPaymentsContainer__Section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  background: #f0f2f4 !important;
+}
+
+
+.CheckoutPaymentsContainer__FetchingPaymentText {
+  padding: var(--cc-container-padding);
+}
+
+.CheckoutPaymentsContainer--hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .CheckoutPaymentsContainer__Section > section {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

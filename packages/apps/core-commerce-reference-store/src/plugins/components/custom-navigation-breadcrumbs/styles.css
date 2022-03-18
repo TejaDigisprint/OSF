@@ -1,0 +1,28 @@
+.NavigationBreadcrumbs {
+
+    color: var(--cc-color);
+
+    padding-top: 16px !important;
+
+    padding: 0.3125rem var(--cc-container-padding);
+
+    font-size: var(--cc-font-size-small);
+
+    font-weight: bold;
+
+}
+.NavigationBreadcrumbs__BreadcrumbItem, .NavigationBreadcrumbs__BreadcrumbItem:hover {
+    color: var(--cc-color);
+    text-decoration: underline;
+    display: inline-block;
+    cursor: pointer;
+}
+.NavigationBreadcrumbs__BreadcrumbItem--disable{
+    pointer-events: none;
+    text-decoration: none;
+    display: inline-block;
+}
+.NavigationBreadcrumbs__Seperator {
+    margin: 0.188rem;
+    display: inline-block;
+}

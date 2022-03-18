@@ -1,0 +1,12 @@
+{
+  "layout": [
+    {
+      "components": [
+        "custom-login"
+      ],
+      "width": 6
+    }
+  ],
+  "component": "CustomResponsiveContainer",
+  "title": "CustomLoginContainer"
+}

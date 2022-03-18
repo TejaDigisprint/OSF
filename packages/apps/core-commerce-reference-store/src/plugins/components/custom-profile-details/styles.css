@@ -1,0 +1,116 @@
+.ProfileDetails {
+  width: 100%;
+  padding: 0 var(--cc-container-padding);
+  margin-bottom: 3rem;
+}
+
+.ProfileDetails_div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.saveBtn {
+  background-color:var(--primarycolor)
+}
+
+.ProfileDetails__Content{
+  width: 100%;
+}
+
+.ProfileDetails__AllFieldsRequiredText{
+  font-size: var(--cc-font-size-small);
+  padding-bottom: 0.6rem;
+}
+
+.ProfileDetails__Link {
+  margin-top: 1.0rem;
+}
+
+.ProfileDetails__Link a {
+  background-color: transparent;
+  color: var(--cc-color);
+  text-decoration: underline;
+  display: inline;
+}
+
+button.ProfileDetails__CancelButton {
+  margin-top: 1.0rem;
+}
+
+.ProfileDetails__SubmitButton {
+  margin-top: 1.0rem;
+}
+
+.ProfileDetails__InputElement {
+  margin-bottom: 1.0rem;
+}
+
+.ProfileDetails__InputElement input:focus{
+  outline: none;
+}
+
+.ProfileDetails__InputElementIconDiv  {
+   text-align: right;
+   margin-top: 0.5rem;
+}
+
+.ProfileDetails__InputField {
+  width : 100%;
+}
+
+.ProfileDetails__IconBasicStyle {
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  color: var(--cc-icon-color);
+}
+
+.ProfileDetails__InputElementDiv {
+  margin-top: -2.2rem;
+}
+
+.ProfileDetails__InputElementDiv input {
+  display:block;
+  box-sizing: border-box;
+  padding-right: 1.8rem;
+}
+
+.ProfileDetails__HiddenSubmitButton {
+  display: none;
+}
+
+.ProfileDetails :focus {
+  outline: auto;
+}
+.ProfileDetails__DisabledField {
+background-color: var(--cc-form-element-disabled-color);
+}
+
+.ProfileDetails__Buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.ProfileDetails__Buttons .ProfileDetails__SubmitButton {
+  margin-left: 0.25rem;
+  width : 100%;
+}
+.ProfileDetails__Buttons .ProfileDetails__CancelButton {
+  margin-right: 0.25rem;
+  width : 100%;
+}
+
+@media only screen and (max-width: 768px){
+  .ProfileDetails__Buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .ProfileDetails__Buttons .ProfileDetails__SubmitButton {
+    margin-left: 0;
+  }
+  .ProfileDetails__Buttons .ProfileDetails__CancelButton {
+    margin-right: 0;
+  }
+}

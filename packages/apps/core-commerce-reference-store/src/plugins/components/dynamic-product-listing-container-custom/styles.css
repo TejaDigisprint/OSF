@@ -1,0 +1,35 @@
+.DynamicProductListingContainer {
+  padding: 0.5rem var(--cc-container-padding);
+  text-align: center;
+}
+
+.DynamicProductListingContainer__Section--Desktop {
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  background: #F0F2F4 !important;
+
+  width: 100%;
+
+  color: #9b9b9b;
+
+  color: var(--cc-root-header-color);
+
+  white-space: nowrap;
+
+  /* background-color: #fff; */
+
+  /* background-color: var(--cc-root-header-background-color); */
+
+  padding-right: 0.875rem;
+
+}
+
+.DynamicProductListingContainer__Section--Desktop .col-3,
+.DynamicProductListingContainer__Section--Desktop .col-6,
+.DynamicProductListingContainer__Section--Desktop .col-9 {
+  padding: 0.5rem;
+}

@@ -1,0 +1,17 @@
+.ProductResultPrice__ProductPrice {
+  color: var(--cc-color);
+  font-size: var(--cc-font-size-large);
+  font-weight: 500;
+  display: block;
+}
+
+.ProductResultPrice__OriginalPrice {
+  color: var(--cc-invalid-focusring-color);
+  font-size: var(--cc-font-size-large);
+  font-weight: 500;
+  text-decoration: line-through;
+  display: block;
+}
+.ProductResultPrice {
+  display: inline-block;
+}
